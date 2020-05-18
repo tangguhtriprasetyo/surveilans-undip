@@ -265,8 +265,8 @@
                   </div><br><br>
                   <div class="form-group mb-0">
                   <div class="custom-control custom-checkbox">
-                    <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck1">
-                    <label class="custom-control-label" for="exampleCheck1">Saya sudah membaca dan menyetujui bahwa apa yang saya isikan diatas benar adanya.</label>
+                  <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck1">
+                  <label class="custom-control-label" for="exampleCheck1">Saya sudah membaca dan menyetujui <a href="" data-toggle="modal" data-target="#modal-tos-deteksi">syarat dan ketentuan yang berlaku</a>.</label>
                   </div>
                 </div>
                 </div>
