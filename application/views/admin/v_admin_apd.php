@@ -32,20 +32,65 @@
             </div>
             <!-- /.card-header -->
             <div class="card-body">
-              <table id="example1" class="table table-striped projects">
+              <table id="example1" class="display nowrap table table-striped text-center" style="width: 100%;">
                 <thead>
                     <tr>
                         <th style="width: 1%">
                             No
                         </th>
-                        <th style="width: 20%">
-                            Project Name
-                        </th>
-                        <th style="width: 30%">
-                            Team Members
+                        <th>
+                            Nama Instansi
                         </th>
                         <th>
-                            Project Progress
+                            Jenis Instansi
+                        </th>
+                        <th>
+                            Kontak
+                        </th>
+                        <th>
+                            Daerah
+                        </th>
+                        <th>
+                            Penerapan PSBB
+                        </th>
+                        <th>
+                            Koordinasi Dengan Pemda
+                        </th>
+                        <th>
+                            Pelatihan Terkait Covid-19
+                        </th>
+                        <th>
+                            Terdapat Kasus Positif
+                        </th>
+                        <th>
+                          Terdapat Layanan Rapid Tes
+                        </th>
+                        <th>
+                          Terdapat Layanan SWAB
+                        </th>
+                        <th>
+                          Tersedia Hand Sanitizer
+                        </th>
+                        <th>
+                          Tersedia Thermometer Infrared
+                        </th>
+                        <th>
+                          Kondisi Ruang Isolasi
+                        </th>
+                        <th>
+                          Jumlah Tenaga Kesehatan
+                        </th>
+                        <th>
+                          Ketersediaan APD
+                        </th>
+                        <th>
+                          Sumber Bantuan APD
+                        </th>
+                        <th>
+                          Menerima Bantuan APD
+                        </th>
+                        <th>
+                          Bantuan Yang Dibutuhkan
                         </th>
                         <th style="width: 8%" class="text-center">
                             Status
@@ -69,29 +114,99 @@
                             </small>
                         </td>
                         <td>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <img alt="Avatar" class="table-avatar" src="../../dist/img/avatar.png">
-                                </li>
-                                <li class="list-inline-item">
-                                    <img alt="Avatar" class="table-avatar" src="../../dist/img/avatar2.png">
-                                </li>
-                                <li class="list-inline-item">
-                                    <img alt="Avatar" class="table-avatar" src="../../dist/img/avatar3.png">
-                                </li>
-                                <li class="list-inline-item">
-                                    <img alt="Avatar" class="table-avatar" src="../../dist/img/avatar04.png">
-                                </li>
-                            </ul>
+                            daw
                         </td>
-                        <td class="project_progress">
-                            <div class="progress progress-sm">
-                                <div class="progress-bar bg-green" role="progressbar" aria-volumenow="57" aria-volumemin="0" aria-volumemax="100" style="width: 57%">
-                                </div>
-                            </div>
-                            <small>
-                                57% Complete
-                            </small>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                          Baiik
+                        </td>
+                        <td>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                               <strong>Dokter</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Laboran</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Perawat</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Driver Ambulance</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Cleaning Service</strong></br><center>3</center>
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                               <strong>Masker Bedah</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Masker N95</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Face Shield</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Goggle</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Sarung Tangan Medis</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Hazmat</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Sepatu Boot</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Caps</strong></br><center>3</center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Shoe Cover</strong></br><center>3</center>
+                            </li>
+                          </ul>
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            data
                         </td>
                         <td class="project-state">
                             <span class="badge badge-success">Success</span>
@@ -110,7 +225,7 @@
                         </td>
                     </tr>
                 </tbody>
-            </table>
+              </table>
             </div>
             <!-- /.card-body -->
           </div>
@@ -145,8 +260,7 @@
 <script>
   $(function () {
     $("#example1").DataTable({
-      "responsive": true,
-      "autoWidth": false,
+      "scrollX": true
     });
   });
 </script>

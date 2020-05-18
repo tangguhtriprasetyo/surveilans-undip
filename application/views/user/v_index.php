@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-          <img src="<?php echo base_url('assets/img/doktor.jpg') ?>" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/img/dokter.png') ?>" class="img-fluid" alt="">
         </div>
       </div>
     </div>
