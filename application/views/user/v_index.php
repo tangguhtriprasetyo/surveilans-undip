@@ -102,7 +102,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Layanan Kami</h2>
-          <p>Kami menyediakan beberapa layanan bagi masyarakat umum terkait COVID-19</p>
+          <p>Kami menyediakan beberapa layanan bagi masyarakat umum terkait Covid-19</p>
         </div>
 
         <div class="row">
@@ -111,8 +111,8 @@
 
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-deteksi">Deteksi Dini COVID - 19</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-deteksi">Deteksi Dini Covid - 19</a></h4>
+              <p class="description">Anda bisa melakukan Test Deteksi Dini atau melihat Hasil Survey Anda disini</p>
             </div>
           </div>
 
@@ -120,7 +120,7 @@
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-resiko">Penilaian Resiko Pribadi</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+              <p class="description">Anda bisa melakukan Penilaian Resiko Pribadi atau melihat Hasil Survey Anda disini</p>
             </div>
           </div>
 
@@ -128,7 +128,7 @@
             <div class="icon-box icon-box-green">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="<?php echo base_url('apd') ?>" >Permohonan Logistik APD</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+              <p class="description">Anda bisa mengajukan permohonan bantuan APD dengan mengisi form berikut</p>
             </div>
           </div>
 
@@ -136,7 +136,7 @@
             <div class="icon-box icon-box-blue">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-hasil">Hasil Survei</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+              <p class="description">Cek Hasil Survei Anda disini</p>
             </div>
           </div>
 
@@ -155,55 +155,55 @@
         <ul class="faq-list">
 
           <li data-aos="fade-up">
-            <a data-toggle="collapse" class="" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" class="" href="#faq1">1. Saya tidak bergejala, apakah saya harus tetap #dirumahaja ? <i class="icofont-simple-up"></i></a>
             <div id="faq1" class="collapse show" data-parent=".faq-list">
               <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                HARUS. WAJIB. KUDU. STAY AT HOME. Sebisa mungkin TETAP #DIRUMAHAJA. Karena ada istilah carrier atau Orang Tanpa Gejala (OTG) dimana orang tersebut tidak bergejala, namun sebenarnya dalam tubuh dia ada virus yang bisa menularkan ke orang lain.
               </p>
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="100">
-            <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">2. Saya harus keluar rumah beli bahan pokok, apa saja yang harus saya perhatikan ? <i class="icofont-simple-up"></i></a>
             <div id="faq2" class="collapse" data-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                - Jangan lupa berdoa <br> - Hindari kerumunan dan jaga jarak <br> - Gunakan masker <br> - Hindari menyentuh wajah, terutama hidung dan mulut <br> - Sering cuci tangan dengan sabun dan air mengalir
+
               </p>
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="200">
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">3. Berarti setiap keluar rumah harus menggunakan masker ya ? Apakah bisa apabila saya menggunakan masker kain ? <i class="icofont-simple-up"></i></a>
             <div id="faq3" class="collapse" data-parent=".faq-list">
               <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                BISA. Masker kain masih bermanfaat kok. Dari penelitian yang telah dilakukan, masker non medis masih memberikan perlindungan (baik bagi diri sendiri atau orang lain), dibanding tidak menggunakan masker sama sekali. Apalagi ditambah jaga jarak, tidak menyentuh wajah dan cuci tangan maka perlindungannya makin plus - plus
               </p>
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="300">
-            <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">4. Mengapa kita harus jaga jarak ? <i class="icofont-simple-up"></i></a>
             <div id="faq4" class="collapse" data-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
+                Orang yang batuk, bersin, ataupun berbicara keras setidaknya mengeluarkan droplet (tetesan kecil air liur) sejauh 1.5 meter bahkan lebih.
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="400">
-            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">5. Kenapa tidak boleh menyentuh wajah terutama hidung, mulut dan mata ? <i class="icofont-simple-up"></i></a>
             <div id="faq5" class="collapse" data-parent=".faq-list">
               <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                Karena sumber penularan covid-19 ini dari droplet, yang biasanya banyak terdapat di benda - benda yang kita pegang dengan tangan. Kemudian virus yang menempel di benda - benda tadi akan hidup di saluran napas (hidung, mulut) dan mata yang sering kita pegang dengan tangan yang kemungkinan besar terdapat virus
               </p>
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="500">
-            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">6. Kalau begitu, apakah efektif apabila saya menggunakan kacamata untuk menghindari droplet ke mata ? <i class="icofont-simple-up"></i></a>
             <div id="faq6" class="collapse" data-parent=".faq-list">
               <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                Bisa membantu, asalkan tetap tidak menyentuh mata dengan tangan ya ! Dan tetap harus jaga jarak.
               </p>
             </div>
           </li>
