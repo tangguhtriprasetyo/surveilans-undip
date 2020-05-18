@@ -30,8 +30,12 @@
               <!-- form start -->
               <form role="form" id="quickForm">
                 <div class="card-body">
+                <div class="section-title" data-aos="fade-up">
+                  <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
+                  <p>Semua data yang diperoleh pada form ini akan di jaga kerahasiaannya serta hanya akan digunakan untuk kepentingan Surveilens</p>
+                </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">1. Nama Lengkap</label>
+                    <label for="exampleInputEmail1">Nama Lengkap</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="Nama Lengkap">
                   </div>
                   <div class="form-group">
@@ -42,19 +46,23 @@
                     <label for="jeniskelamin">Perempuan</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">3. Usia</label>
+                    <label for="exampleInputEmail1">Usia</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="Masukkan Usia Anda">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">4. No. HP / Email</label>
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputNama1">Nomer Handphone</label>
+                    <input type="text" name="nohp" class="form-control" id="exampleInputNoHP" placeholder="+62">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Kontak Nomer/WA Kerabat yang bisa dihubungi</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">5. Kontak Nomer/WA Kerabat yang bisa dihubungi</label>
-                    <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputNWilayah">6. Saat ini sedang tinggal dimana ?</label><br>
+                    <label for="exampleInputNWilayah">Saat ini sedang tinggal dimana ?</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
                     <label for="psbb">Kontrakan</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -65,15 +73,15 @@
                     <label for="lockdown">Lainnya</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">7. Alamat lengkap Kosan / Kontrakan / Rumah </label>
+                    <label for="exampleInputEmail1">Alamat lengkap Kosan / Kontrakan / Rumah </label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="Alamat Lengkap">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">8. Daerah asal (Tuliskan nama Kota dan Provinsi)</label>
+                    <label for="exampleInputEmail1">Daerah asal (Tuliskan nama Kota dan Provinsi)</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="contoh : Semarang, Jawa Tengah">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputNWilayah">9. Pendidikan terakhir</label><br>
+                    <label for="exampleInputNWilayah">Pendidikan terakhir</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
                     <label for="psbb">SD</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -90,14 +98,14 @@
                     <label for="lockdown">S3</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">10. Apakah saudara/i sudah bekerja ?</label><br>
+                    <label for="exampleInputKelamin1">Apakah saudara/i sudah bekerja ?</label><br>
                     <input type="checkbox" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Ya</label><br>
                     <input type="checkbox" name="jeniskelamin" value="perempuan">
                     <label for="jeniskelamin">Tidak</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">11. Jika sudah bekerja, apakah pekerjaan Anda ?</label><br>
+                    <label for="exampleInputKelamin1">Jika sudah bekerja, apakah pekerjaan Anda ?</label><br>
                     <input type="radio" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Dokter / Paramedis</label><br>
                     <input type="radio" name="jeniskelamin" value="perempuan">
@@ -122,7 +130,7 @@
                     <label for="jeniskelamin">Lainnya</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">12. Apakah selama ini saudara/i pernah mengalami gejala Covid-19 ? Jika pernah, gejala apa yang pernah Anda rasakan ? (pilihan boleh dari 1)</label><br>
+                    <label for="exampleInputKelamin1">Apakah selama ini saudara/i pernah mengalami gejala Covid-19 ? Jika pernah, gejala apa yang pernah Anda rasakan ? (pilihan boleh dari 1)</label><br>
                     <input type="checkbox" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Demam</label><br>
                     <input type="checkbox" name="jeniskelamin" value="perempuan">
@@ -141,11 +149,11 @@
                     <label for="jeniskelamin">Lainnya</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">13. Sudah berapa lama kamu merasakan gejala tersebut ?</label>
+                    <label for="exampleInputEmail1">Sudah berapa lama kamu merasakan gejala tersebut ?</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="contoh : 6 hari">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">14. Apakah anda mempunyai riwayat perjalanan keluar negeri atau kota - kota lain yang terjangkit Covid-19 sebelum timbul gejala ? (Pilih salah satu)</label><br>
+                    <label for="exampleInputKelamin1">Apakah anda mempunyai riwayat perjalanan keluar negeri atau kota - kota lain yang terjangkit Covid-19 sebelum timbul gejala ? (Pilih salah satu)</label><br>
                     <input type="radio" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Jakarta</label><br>
                     <input type="radio" name="jeniskelamin" value="perempuan">
@@ -172,7 +180,7 @@
                     <label for="jeniskelamin">Semarang</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputNWilayah">15. Apakah dalam radius 3 Km dari posisi anda ada ODP/PDP/Positif atau bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
+                    <label for="exampleInputNWilayah">Apakah dalam radius 3 Km dari posisi anda ada ODP/PDP/Positif atau bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
                     <input type="radio" id="psbb" name="kondisi"  value="psbb">
                     <label for="psbb">Ya</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -181,7 +189,7 @@
                     <label for="psbb">Tidak Tahu</label>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputNWilayah">16. Apakah anda pernah atau sedang melakukan kontak dengan ODP/PDP/Positif atau bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
+                    <label for="exampleInputNWilayah">Apakah anda pernah atau sedang melakukan kontak dengan ODP/PDP/Positif atau bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
                     <input type="radio" id="psbb" name="kondisi"  value="psbb">
                     <label for="psbb">Ya</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -190,7 +198,7 @@
                     <label for="psbb">Tidak Tahu</label>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputNWilayah">17. Apakah anda telah melakukan karantina mandiri selama 14 hari di kediaman anda ?</label><br>
+                    <label for="exampleInputNWilayah">Apakah anda telah melakukan karantina mandiri selama 14 hari di kediaman anda ?</label><br>
                     <input type="radio" id="psbb" name="kondisi"  value="psbb">
                     <label for="psbb">Ya, karena saya mengalami gejala yang tertera di atas</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -201,7 +209,7 @@
                     <label for="psbb">Tidak</label>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">18. Apakah anda telah menerapkan prinsip pencegahan Covid-19? (Pilihan boleh lebih dari 1)</label><br>
+                    <label for="exampleInputKelamin1">Apakah anda telah menerapkan prinsip pencegahan Covid-19? (Pilihan boleh lebih dari 1)</label><br>
                     <input type="checkbox" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Mencuci tangan pakai sabun/ hand sanitizer setiap selesai kontak dengan barang yang dibawa bepergian, setelah memegang uang, sebelum makan maupun saat tangan terasa kotor sehingga merasa harus menerapkan prinsip pencegahan sesuai dengan protokol Covid-19</label><br>
                     <input type="checkbox" name="jeniskelamin" value="perempuan">
@@ -216,7 +224,7 @@
                     <label for="jeniskelamin">Saya tidak menerapkan apapun sama sekali</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">19. Jika anda terpaksa keluar rumah, apa saja langkah yang anda lakukan saat tiba dirumah? (pilihan boleh lebih dari 1)</label><br>
+                    <label for="exampleInputKelamin1">Jika anda terpaksa keluar rumah, apa saja langkah yang anda lakukan saat tiba dirumah? (pilihan boleh lebih dari 1)</label><br>
                     <input type="checkbox" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Mengganti pakaian pergi dengan pakaian bersih</label><br>
                     <input type="checkbox" name="jeniskelamin" value="perempuan">
@@ -229,7 +237,7 @@
                     <label for="jeniskelamin">Menyemprotkan disinfektan ke barang-barang yang dibawa bepergian</label><br>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputNWilayah">20. Apakah dirumah anda dilakukan penyemprotan disinfektan?</label><br>
+                    <label for="exampleInputNWilayah">Apakah dirumah anda dilakukan penyemprotan disinfektan?</label><br>
                     <input type="radio" id="psbb" name="kondisi"  value="psbb">
                     <label for="psbb">Ya, saya menyemprotkan disinfektan secara mandiri</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -238,7 +246,7 @@
                     <label for="psbb">Tidak</label>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputNWilayah">21. Apakah masyarakat di lingkungan anda melakukan physical distancing?</label><br>
+                    <label for="exampleInputNWilayah">Apakah masyarakat di lingkungan anda melakukan physical distancing?</label><br>
                     <input type="radio" id="psbb" name="kondisi"  value="psbb">
                     <label for="psbb">Ya, namun masih ada beberapa kegiatan kumpul warga seperti arisan, pengajian, rapat rutin, dll</label><br>
                     <input type="radio" id="psbb" name="kondisi" value="psbb">
@@ -247,7 +255,7 @@
                     <label for="psbb">Tidak, masyarakat berinteraksi seperti biasa tanpa batasan</label>
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputKelamin1">22. Apakah anda memiliki riwayat kontak dengan banyak orang dalam suatu kerumunan, seperti berikut (pilihan boleh lebih dari 1)</label><br>
+                    <label for="exampleInputKelamin1">Apakah anda memiliki riwayat kontak dengan banyak orang dalam suatu kerumunan, seperti berikut (pilihan boleh lebih dari 1)</label><br>
                     <input type="checkbox" name="jeniskelamin" value="laki">
                     <label for="jeniskelamin">Ya, saya pergi ke pasar tradisional/pasar modren/ pusat perbelanjaan</label><br>
                     <input type="checkbox" name="jeniskelamin" value="perempuan">
@@ -305,112 +313,5 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
-  <script>
-    $(function () {
-    /* ChartJS
-     * -------
-     * Here we will create a few charts using ChartJS
-     */
-    //-------------
-    //- DONUT CHART -
-    //-------------
-    // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
-    var donutData        = {
-      labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
-      ],
-      datasets: [
-      {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
-      }
-      ]
-    }
-    var donutOptions     = {
-      maintainAspectRatio : false,
-      responsive : true,
-    }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
-    var donutChart = new Chart(donutChartCanvas, {
-      type: 'doughnut',
-      data: donutData,
-      options: donutOptions      
-    })
-
-    //-------------
-    //- DONUT CHART -
-    //-------------
-    // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart2').get(0).getContext('2d')
-    var donutData        = {
-      labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
-      ],
-      datasets: [
-      {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
-      }
-      ]
-    }
-    var donutOptions     = {
-      maintainAspectRatio : false,
-      responsive : true,
-    }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
-    var donutChart = new Chart(donutChartCanvas, {
-      type: 'doughnut',
-      data: donutData,
-      options: donutOptions      
-    })
-
-    //-------------
-    //- DONUT CHART -
-    //-------------
-    // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart3').get(0).getContext('2d')
-    var donutData        = {
-      labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
-      ],
-      datasets: [
-      {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
-      }
-      ]
-    }
-    var donutOptions     = {
-      maintainAspectRatio : false,
-      responsive : true,
-    }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
-    var donutChart = new Chart(donutChartCanvas, {
-      type: 'doughnut',
-      data: donutData,
-      options: donutOptions      
-    })
-
-  })
-</script>
 </body>
 </html>

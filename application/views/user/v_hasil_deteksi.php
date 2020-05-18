@@ -24,13 +24,14 @@
                         <h2><strong>Saran :</strong> Perbanyak zikir, jangan banyak berdosa</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: ddart@liveudinp</p>
                     </div>
+                    <p><a class="btn btn-danger float-right" href="<?php echo base_url('') ?>">Update Kondisi</a></p>
                 </div>
             </div>
             <div class="col-lg-6 order-3 order-lg-2 hero-img" data-aos="fade-left">
                 <div class="section-title" data-aos="fade-up">
                     <h2>Infografik Hasil Survey Tingkat Kecemasan Pengguna</h2> 
                 <figure>
-                    <canvas id="donutChart" width="300" height="300"></canvas>
+                    <canvas id="donutChart2" width="300" height="300"></canvas>
                 </figure>
                 </div>
             </div>
@@ -64,5 +65,6 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
+  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
 </body>
 </html>

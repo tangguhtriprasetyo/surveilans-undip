@@ -159,5 +159,8 @@
 <!-- OPTIONAL SCRIPTS -->
 
 <!-- /.OPTIONAL SCRIPTS -->
+  <script src="<?php echo base_url('assets/js/grafik.js') ?>"></script>
+  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
+  <script src="<?php echo base_url('assets/js/grafik3.js') ?>"></script>
 </body>
 </html>

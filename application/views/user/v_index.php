@@ -59,14 +59,17 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="section-title" data-aos="fade-up">
-        <h2>Layanan Kami</h2>
-        <p>Kami menyediakan beberapa layanan bagi masyarakat umum terkait COVID-19</p>
+        <h2>Infografik Hasil Survei D-Dart</h2>
+        <p>Grafik berikut diperoleh dari hasil survei yang dilakukan D-Dart</p>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-4 order-1 order-lg-2" data-aos="zoom-in">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
+              <div class="section-title" data-aos="fade-up">
+                <h4>Tingkat Kecemasan Pengguna Survei Penilaian Resiko Pribadi</h4>
+              </div>
                 <figure>
                   <canvas id="donutChart" width="300" height="300"></canvas>
                 </figure>
@@ -76,6 +79,9 @@
           <div class="col-lg-4 order-1 order-lg-2" data-aos="zoom-in">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
+              <div class="section-title" data-aos="fade-up">
+                <h4>Hasil Survei Deteksi Dini</h4>
+              </div>
                 <figure>
                   <canvas id="donutChart2" width="300" height="300"></canvas>
                 </figure>
@@ -85,6 +91,9 @@
           <div class="col-lg-4 order-1 order-lg-2" data-aos="zoom-in">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
+              <div class="section-title" data-aos="fade-up">
+                <h4>Ketersediaan APD Pada Instansi Kesehatan</h4>
+              </div>
                 <figure>
                   <canvas id="donutChart3" width="300" height="300"></canvas>
                 </figure>
@@ -111,16 +120,16 @@
 
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-deteksi">Deteksi Dini Covid - 19</a></h4>
-              <p class="description">Anda bisa melakukan Test Deteksi Dini atau melihat Hasil Survey Anda disini</p>
+              <h4 class="title"><a href="<?php echo base_url('deteksi') ?>">Deteksi Dini Covid - 19</a></h4>
+              <p class="description">Anda bisa melakukan Test Deteksi Dini disini</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-resiko">Penilaian Resiko Pribadi</a></h4>
-              <p class="description">Anda bisa melakukan Penilaian Resiko Pribadi atau melihat Hasil Survey Anda disini</p>
+              <h4 class="title"><a href="<?php echo base_url('resiko') ?>">Penilaian Resiko Pribadi</a></h4>
+              <p class="description">Anda bisa melakukan Penilaian Resiko Pribadi disini</p>
             </div>
           </div>
 
@@ -302,5 +311,8 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
+  <script src="<?php echo base_url('assets/js/grafik.js') ?>"></script>
+  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
+  <script src="<?php echo base_url('assets/js/grafik3.js') ?>"></script>
 </body>
 </html>
