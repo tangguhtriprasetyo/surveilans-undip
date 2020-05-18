@@ -20,3 +20,4 @@
 <script src="<?php echo base_url('assets/js/main.js') ?>"></script>
 <!-- OPTIONAL SCRIPTS -->
 <script src="<?php echo base_url('assets/admin/plugins/chart.js/Chart.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/js/grafik.js') ?>"></script>

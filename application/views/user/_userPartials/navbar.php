@@ -11,11 +11,11 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="<?php echo base_url('') ?>">Home</a></li>
-          <li><a href="#about">Tentang Kami</a>
+          <li><a href="<?php echo base_url('#about') ?>">Tentang Kami</a>
           </li>
-          <li><a href="#services">Layanan Kami</a></li>
+          <li><a href="<?php echo base_url('#services') ?>">Layanan Kami</a></li>
 
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="<?php echo base_url('#contact') ?>">Contact</a></li>
 
         </ul>
       </nav>

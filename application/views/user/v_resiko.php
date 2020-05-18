@@ -67,28 +67,30 @@
                  </div>
                  <div class="form-group">
                   <label for="exampleInputKerja1">Apa pekerjaan anda ?</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="Mahasiswa">
+                  <input type="radio" id="kerja" name="kerja" value="Mahasiswa">
                   <label for="kerja">Mahasiswa</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="Pelajar">
+                  <input type="radio" id="kerja" name="kerja" value="Pelajar">
                   <label for="kerja">Pelajar</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="Dosen">
+                  <input type="radio" id="kerja" name="kerja" value="Dosen">
                   <label for="kerja">Dosen</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="TenagaPendidikan">
+                  <input type="radio" id="kerja" name="kerja" value="TenagaPendidikan">
                   <label for="kerja">Tenaga Pendidikan</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="CleaningService">
+                  <input type="radio" id="kerja" name="kerja" value="CleaningService">
                   <label for="kerja">Cleaning Service</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="Security">
+                  <input type="radio" id="kerja" name="kerja" value="Security">
                   <label for="kerja">Security</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="PNS">
+                  <input type="radio" id="kerja" name="kerja" value="PNS">
                   <label for="kerja">PNS</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="Wiraswasta">
+                  <input type="radio" id="kerja" name="kerja" value="Wiraswasta">
                   <label for="kerja">Wiraswasta</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="TenagaMedis">
+                  <input type="radio" id="kerja" name="kerja" value="TenagaMedis">
                   <label for="kerja">Tenaga Medis</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="TNI">
+                  <input type="radio" id="kerja" name="kerja" value="TNI">
                   <label for="kerja">TNI</label><br>
-                  <input type="checkbox" id="kerja" name="kerja" value="Polri">
+                  <input type="radio" id="kerja" name="kerja" value="Polri">
                   <label for="kerja">Polri</label><br>
+                  <input type="radio" id="kerja" name="kerja" >
+                  <label for="kerja"><input type="text" id="kerja" name="kerja" placeholder="Lainnya"></label><br>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPosisi1">Dimana Anda Bekerja ?</label>
@@ -96,9 +98,9 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputKerja1">Apakah anda menerapkan kebijakan di rumah saja ?</label><br>
-                  <input type="checkbox" name="kerja" value="Iya">
+                  <input type="radio" name="kerja" value="Iya">
                   <label for="kerja">Iya</label><br>
-                  <input type="checkbox" name="kerja" value="Tidak">
+                  <input type="radio" name="kerja" value="Tidak">
                   <label for="kerja">Tidak</label><br>
                 </div>
                 <div class="form-group">
@@ -307,7 +309,7 @@
                 <div class="form-group mb-0">
                   <div class="custom-control custom-checkbox">
                     <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck1">
-                    <label class="custom-control-label" for="exampleCheck1">Saya sudah membaca dan menyetujui bahwa apa yang saya isikan diatas benar adanya.</label>
+                    <label class="custom-control-label" for="exampleCheck1">Saya sudah membaca dan menyetujui <a href="" data-toggle="modal" data-target="#modal-tos">syarat dan ketentuan yang berlaku</a>.</label>
                   </div>
                 </div>
               </div>

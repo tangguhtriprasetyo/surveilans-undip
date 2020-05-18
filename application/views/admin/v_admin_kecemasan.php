@@ -32,23 +32,47 @@
             </div>
             <!-- /.card-header -->
             <div class="card-body">
-              <table id="example1" class="table table-striped projects">
+              <table id="example1" class="display nowrap table table-striped" style="width: 1800px;">
                 <thead>
-                    <tr>
+                    <tr class="text-center">
                         <th style="width: 1%">
                             No
                         </th>
-                        <th style="width: 20%">
-                            Project Name
-                        </th>
-                        <th style="width: 30%">
-                            Team Members
+                        <th>
+                            Nama
                         </th>
                         <th>
-                            Project Progress
+                            Email
+                        </th>
+                        <th>
+                            Usia
+                        </th>
+                        <th>
+                            No.Hp
+                        </th>
+                        <th>
+                            Posisi Sekarang
+                        </th>
+                        <th>
+                            Status Wilayah
+                        </th>
+                        <th>
+                            Pekerjaan
+                        </th>
+                        <th>
+                            Tempat Bekerja
+                        </th>
+                        <th>
+                            WFH
+                        </th>
+                        <th>
+                            Kesulitan WFH
                         </th>
                         <th style="width: 8%" class="text-center">
-                            Resiko
+                            Skor
+                        </th>
+                        <th style="width: 8%" class="text-center">
+                            Hasil
                         </th>
                         <th style="width: 15%">
                         </th>
@@ -67,6 +91,30 @@
                             <small>
                                 Created 01.01.2019
                             </small>
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
+                        </td>
+                        <td>
+                            daw
                         </td>
                         <td>
                             daw
@@ -126,8 +174,7 @@
 <script>
   $(function () {
     $("#example1").DataTable({
-      "responsive": true,
-      "autoWidth": false,
+      "scrollX": true
     });
   });
 </script>

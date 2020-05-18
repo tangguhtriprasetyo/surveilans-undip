@@ -111,7 +111,7 @@
 
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-default">Deteksi Dini COVID - 19</a></h4>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-deteksi">Deteksi Dini COVID - 19</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
             </div>
           </div>
@@ -119,7 +119,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Penilaian Resiko Pribadi</a></h4>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-resiko">Penilaian Resiko Pribadi</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
             </div>
           </div>
@@ -127,7 +127,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box icon-box-green">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Permohonan Logistik APD</a></h4>
+              <h4 class="title"><a href="<?php echo base_url('apd') ?>" >Permohonan Logistik APD</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
             </div>
           </div>
@@ -135,7 +135,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box icon-box-blue">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Hasil Survei</a></h4>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#modal-hasil">Hasil Survei</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
             </div>
           </div>
@@ -302,112 +302,5 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
-  <script>
-    $(function () {
-    /* ChartJS
-     * -------
-     * Here we will create a few charts using ChartJS
-     */
-    //-------------
-    //- DONUT CHART -
-    //-------------
-    // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
-    var donutData        = {
-      labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
-      ],
-      datasets: [
-      {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
-      }
-      ]
-    }
-    var donutOptions     = {
-      maintainAspectRatio : false,
-      responsive : true,
-    }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
-    var donutChart = new Chart(donutChartCanvas, {
-      type: 'doughnut',
-      data: donutData,
-      options: donutOptions      
-    })
-
-    //-------------
-    //- DONUT CHART -
-    //-------------
-    // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart2').get(0).getContext('2d')
-    var donutData        = {
-      labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
-      ],
-      datasets: [
-      {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
-      }
-      ]
-    }
-    var donutOptions     = {
-      maintainAspectRatio : false,
-      responsive : true,
-    }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
-    var donutChart = new Chart(donutChartCanvas, {
-      type: 'doughnut',
-      data: donutData,
-      options: donutOptions      
-    })
-
-    //-------------
-    //- DONUT CHART -
-    //-------------
-    // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart3').get(0).getContext('2d')
-    var donutData        = {
-      labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
-      ],
-      datasets: [
-      {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
-      }
-      ]
-    }
-    var donutOptions     = {
-      maintainAspectRatio : false,
-      responsive : true,
-    }
-    //Create pie or douhnut chart
-    // You can switch between pie and douhnut using the method below.
-    var donutChart = new Chart(donutChartCanvas, {
-      type: 'doughnut',
-      data: donutData,
-      options: donutOptions      
-    })
-
-  })
-</script>
 </body>
 </html>

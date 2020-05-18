@@ -15,3 +15,4 @@
 <script src="<?php echo base_url('assets/admin/plugins/chart.js/Chart.min.js') ?>"></script>
 <script src="<?php echo base_url('assets/admin/js/demo.js') ?>"></script>
 <script src="<?php echo base_url('assets/admin/js/pages/dashboard3.js') ?>"></script>
+<script src="<?php echo base_url('assets/js/grafik.js') ?>"></script>
