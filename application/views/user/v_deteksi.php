@@ -34,13 +34,13 @@
                   <div class="section-title" data-aos="fade-up">
                     <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
                     <p>Semua data yang diperoleh pada form ini akan di jaga kerahasiaannya serta hanya akan digunakan
-                      untuk kepentingan Surveilens</p>
+                    untuk kepentingan Surveilens</p>
                   </div>
 
                   <div class="form-group">
                     <label for="nama">Nama Lengkap</label>
                     <input type="text" name="nama" class="form-control" id="email"
-                      placeholder="Nama Lengkap">
+                    placeholder="Nama Lengkap">
                   </div>
 
                   <div class="form-group">
@@ -54,7 +54,7 @@
                   <div class="form-group">
                     <label for="exampleInputEmail1">Tempat & Tanggal Lahir</label>
                     <input type="text" name="ttl" class="form-control" id="exampleInputNama1"
-                      placeholder="Tempat Tanggal Lahir">
+                    placeholder="Tempat Tanggal Lahir">
                   </div>
 
                   <div class="form-group">
@@ -87,13 +87,13 @@
                   <div class="form-group">
                     <label for="exampleInputEmail1">Alamat lengkap Kosan / Kontrakan / Rumah </label>
                     <input type="text" name="alamat" class="form-control" id="exampleInputNama1"
-                      placeholder="Alamat Lengkap">
+                    placeholder="Alamat Lengkap">
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Daerah asal (Tuliskan nama Kota dan Provinsi)</label>
                     <input type="text" name="asal" class="form-control" id="exampleInputNama1"
-                      placeholder="contoh : Semarang, Jawa Tengah">
+                    placeholder="contoh : Semarang, Jawa Tengah">
                   </div>
 
                   <div class="form-group">
@@ -150,177 +150,179 @@
 
                   <div class="form-group">
                     <label for="exampleInputKelamin1">Apakah selama ini saudara/i pernah mengalami gejala Covid-19 ?
-                      Jika pernah, gejala apa yang pernah Anda rasakan ? (pilihan boleh dari 1)</label><br>
-                    <input type="checkbox" name="gejala" value="Demam">
+                    Jika pernah, gejala apa yang pernah Anda rasakan ? (pilihan boleh dari 1)</label><br>
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Demam</label><br>
-                    <input type="checkbox" name="gejala" value="Batuk">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Batuk</label><br>
-                    <input type="checkbox" name="gejala" value="Sesak">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Sesak Nafas</label><br>
-                    <input type="checkbox" name="gejala" value="Pusing">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Pusing, Kelelahan</label><br>
-                    <input type="checkbox" name="gejala" value="Mual">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Mual</label><br>
-                    <input type="checkbox" name="gejala" value="Diare">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Diare</label><br>
-                    <input type="checkbox" name="gejala" value="Radang">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Sakit Tenggorokan</label><br>
-                    <input type="checkbox" name="gejala" value="Lainnya">
+                    <input type="checkbox" name="gejala" value="1">
                     <label for="gejala">Lainnya</label><br>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Sudah berapa lama kamu merasakan gejala tersebut ?</label>
-                    <input type="text" name="durasi" class="form-control" id="exampleInputNama1"
-                      placeholder="contoh : 6 hari">
+                    <input type="text" name="durasi" class="form-control" id="exampleInputNama1 value="1"
+                    placeholder="contoh : 6 hari">
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputKelamin1">Apakah anda mempunyai riwayat perjalanan keluar negeri atau kota -
-                      kota lain yang terjangkit Covid-19 sebelum timbul gejala ? (Pilih salah satu)</label><br>
-                    <input type="radio" name="riwayat" value="Jakarta">
+                    kota lain yang terjangkit Covid-19 sebelum timbul gejala ? (Pilih salah satu)</label><br>
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Jakarta</label><br>
-                    <input type="radio" name="riwayat" value="Bandung">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Bandung</label><br>
-                    <input type="radio" name="riwayat" value="Yogyakarta">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Yogyakarta</label><br>
-                    <input type="radio" name="riwayat" value="Depok">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Depok</label><br>
-                    <input type="radio" name="riwayat" value="Tangerang">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Tangerang</label><br>
-                    <input type="radio" name="riwayat" value="Bogor">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Bogor</label><br>
-                    <input type="radio" name="riwayat" value="Surabaya">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Surabaya</label><br>
-                    <input type="radio" name="riwayat" value="Manado">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Manado</label><br>
-                    <input type="radio" name="riwayat" value="Pontianak">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Pontianak</label><br>
-                    <input type="radio" name="riwayat" value="Surakarta">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Surakarta</label><br>
-                    <input type="radio" name="riwayat" value="Denpasar">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Denpasar</label><br>
-                    <input type="radio" name="riwayat" value="Semarang">
+                    <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Semarang</label><br>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">Apakah dalam radius 3 Km dari posisi anda ada ODP/PDP/Positif atau
-                      bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
-                    <input type="radio" id="psbb" name="radius" value="Ya">
+                    bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
+                    <input type="radio" id="psbb" name="radius" value="1">
                     <label for="psbb">Ya</label><br>
-                    <input type="radio" id="psbb" name="radius" value="Tidak">
+                    <input type="radio" id="psbb" name="radius" value="0">
                     <label for="psbb">Tidak</label><br>
-                    <input type="radio" id="psbb" name="radius" value="tidak_tahu">
+                    <input type="radio" id="psbb" name="radius" value="0">
                     <label for="psbb">Tidak Tahu</label>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">Apakah anda pernah atau sedang melakukan kontak dengan
-                      ODP/PDP/Positif atau bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
-                    <input type="radio" id="psbb" name="kontak" value="Ya">
+                    ODP/PDP/Positif atau bahkan jenazah yang dikubur sesuai protokol Covid-19 ?</label><br>
+                    <input type="radio" id="psbb" name="kontak" value="1">
                     <label for="psbb">Ya</label><br>
-                    <input type="radio" id="psbb" name="kontak" value="Tidak">
+                    <input type="radio" id="psbb" name="kontak" value="0">
                     <label for="psbb">Tidak</label><br>
-                    <input type="radio" id="psbb" name="kontak" value="tidak_tahu">
+                    <input type="radio" id="psbb" name="kontak" value="0">
                     <label for="psbb">Tidak Tahu</label>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">Apakah anda telah melakukan karantina mandiri selama 14 hari di
-                      kediaman anda ?</label><br>
-                    <input type="radio" id="psbb" name="karantina" value="gejala">
+                    kediaman anda ?</label><br>
+                    <input type="radio" id="psbb" name="karantina" value="1">
                     <label for="psbb">Ya, karena saya mengalami gejala yang tertera di atas</label><br>
-                    <input type="radio" id="psbb" name="karantina" value="lintas">
+                    <input type="radio" id="psbb" name="karantina" value="1">
                     <label for="psbb">Ya, karena saya baru saja berpergian lintas kota</label><br>
-                    <input type="radio" id="psbb" name="karantina" value="pasien">
+                    <input type="radio" id="psbb" name="karantina" value="1">
                     <label for="psbb">Ya, karena saya telah kontak dengan pasien ODP/PDP/Positif Covid-19</label><br>
-                    <input type="radio" id="psbb" name="karantina" value="Tidak">
+                    <input type="radio" id="psbb" name="karantina" value="0">
                     <label for="psbb">Tidak</label>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputKelamin1">Apakah anda telah menerapkan prinsip pencegahan Covid-19? (Pilihan
-                      boleh lebih dari 1)</label><br>
-                    <input type="checkbox" name="prinsip" value="cucitangan">
-                    <label for="prinsip">Mencuci tangan pakai sabun/ hand sanitizer setiap selesai kontak dengan
+                    boleh lebih dari 1)</label><br>
+                    <input type="checkbox" name="prinsip" value="1">
+                    <label for="prinsip">Tidak Mencuci tangan pakai sabun/ hand sanitizer setiap selesai kontak dengan
                       barang yang dibawa bepergian, setelah memegang uang, sebelum makan maupun saat tangan terasa kotor
-                      sehingga merasa harus menerapkan prinsip pencegahan sesuai dengan protokol Covid-19</label><br>
-                    <input type="checkbox" name="prinsip" value="masker">
+                    sehingga merasa harus menerapkan prinsip pencegahan sesuai dengan protokol Covid-19</label><br>
+                    <input type="checkbox" name="prinsip" value="1">
                     <label for="prinsip">Mencegah masker kain setiap keluar dari kediaman atau hendak kontak dengan
-                      manusia lain</label><br>
-                    <input type="checkbox" name="prinsip" value="tidakmenyentuh">
+                    manusia lain</label><br>
+                    <input type="checkbox" name="prinsip" value="1">
                     <label for="prinsip">Tidak sembarang menyentuh benda yang terletak di tempat umum maupun
-                      berjabat tangan</label><br>
-                    <input type="checkbox" name="prinsip" value="mandiri">
+                    berjabat tangan</label><br>
+                    <input type="checkbox" name="prinsip" value="1">
                     <label for="prinsip">Menerapkan karantina mandiri setelah kontak dengan ODP/PDP/Positif
-                      Covid-19</label><br>
-                    <input type="checkbox" name="prinsip" value="seluruh">
+                    Covid-19</label><br>
+                    <input type="checkbox" name="prinsip" value="4">
                     <label for="prinsip">Saya menerapkan menerapkan seluruh langkah tersebut</label><br>
-                    <input type="checkbox" name="prinsip" value="tidakmenerapkan">
+                    <input type="checkbox" name="prinsip" value="0">
                     <label for="prinsip">Saya tidak menerapkan apapun sama sekali</label><br>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputKelamin1">Jika anda terpaksa keluar rumah, apa saja langkah yang anda
-                      lakukan saat tiba dirumah? (pilihan boleh lebih dari 1)</label><br>
-                    <input type="checkbox" name="keluar" value="gantipakaian">
+                    lakukan saat tiba dirumah? (pilihan boleh lebih dari 1)</label><br>
+                    <input type="checkbox" name="keluar" value="1">
                     <label for="jeniskelamin">Mengganti pakaian pergi dengan pakaian bersih</label><br>
-                    <input type="checkbox" name="keluar" value="cucitangan">
+                    <input type="checkbox" name="keluar" value="1">
                     <label for="keluar">Cuci tangan pakai sabun sebelum masuk rumah</label><br>
-                    <input type="checkbox" name="keluar" value="mandi">
+                    <input type="checkbox" name="keluar" value="1">
                     <label for="keluar">Mandi</label><br>
-                    <input type="checkbox" name="keluar" value="membuka_sepatu">
+                    <input type="checkbox" name="keluar" value="1">
                     <label for="keluar">Membuka sepatu di luar rumah</label><br>
-                    <input type="checkbox" name="keluar" value="menyemprotkan_disinfektan">
+                    <input type="checkbox" name="keluar" value="1">
                     <label for="keluar">Menyemprotkan disinfektan ke barang-barang yang dibawa
-                      bepergian</label><br>
+                    bepergian</label><br>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">Apakah dirumah anda dilakukan penyemprotan
-                      disinfektan?</label><br>
-                    <input type="radio" id="psbb" name="penyemprotan" value="Ya_mandiri">
+                    disinfektan?</label><br>
+                    <input type="radio" id="psbb" name="penyemprotan" value="0">
                     <label for="psbb">Ya, saya menyemprotkan disinfektan secara mandiri</label><br>
-                    <input type="radio" id="psbb" name="penyemprotan" value="Ya_petugas">
+                    <input type="radio" id="psbb" name="penyemprotan" value="0">
                     <label for="psbb">Ya, rumah saya disemprot disinfektan oleh petugas</label><br>
-                    <input type="radio" id="psbb" name="penyemprotan" value="Tidak">
+                    <input type="radio" id="psbb" name="penyemprotan" value="1">
                     <label for="psbb">Tidak</label>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">Apakah masyarakat di lingkungan anda melakukan physical
-                      distancing?</label><br>
-                    <input type="radio" id="psbb" name="physical" value="Ya_kumpulwarga">
+                    distancing?</label><br>
+                    <input type="radio" id="psbb" name="physical" value="1">
                     <label for="psbb">Ya, namun masih ada beberapa kegiatan kumpul warga seperti arisan, pengajian,
-                      rapat rutin, dll</label><br>
-                    <input type="radio" id="psbb" name="physical" value="Ya">
+                    rapat rutin, dll</label><br>
+                    <input type="radio" id="psbb" name="physical" value="1">
                     <label for="psbb">Ya, rumah saya disemprot disinfektan oleh petugas</label><br>
-                    <input type="radio" id="psbb" name="physical" value="Tidak">
+                    <input type="radio" id="psbb" name="physical" value="1">
                     <label for="psbb">Tidak, masyarakat berinteraksi seperti biasa tanpa batasan</label>
+                    <input type="radio" id="psbb" name="physical" value="0">
+                    <label for="psbb">Ya, masyarakat di sekitar saya sama sekali tidak mengadakan kegiatan kumpul warga</label>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputKelamin1">Apakah anda memiliki riwayat kontak dengan banyak orang dalam
-                      suatu kerumunan, seperti berikut (pilihan boleh lebih dari 1)</label><br>
-                    <input type="checkbox" name="kerumunan" value="Ya_pasar">
+                    suatu kerumunan, seperti berikut (pilihan boleh lebih dari 1)</label><br>
+                    <input type="checkbox" name="kerumunan" value="1">
                     <label for="kerumunan">Ya, saya pergi ke pasar tradisional/pasar modren/ pusat
-                      perbelanjaan</label><br>
-                    <input type="checkbox" name="kerumunan" value="Ya_agama">
+                    perbelanjaan</label><br>
+                    <input type="checkbox" name="kerumunan" value="1">
                     <label for="kerumunan">Ya, saya masih menghadiri acara keagamaan secara bersama</label><br>
-                    <input type="checkbox" name="kerumunan" value="Ya_kumpul">
+                    <input type="checkbox" name="kerumunan" value="1">
                     <label for="kerumunan">Ya, saya masih menghadiri aacara perkumpulan
-                      keluarga/warga/komunitas</label><br>
-                    <input type="checkbox" name="kerumunan" value="Ya_kantor">
+                    keluarga/warga/komunitas</label><br>
+                    <input type="checkbox" name="kerumunan" value="1">
                     <label for="kerumunan">Ya, saya masih harus bekerja di kantor</label><br>
-                    <input type="checkbox" name="kerumunan" value="Ya_wisata">
+                    <input type="checkbox" name="kerumunan" value="1">
                     <label for="kerumunan">Ya, saya pernah pergi ke tempat wisata maupun rekreasi selama periode
-                      pandemi Covid-19</label><br>
-                    <input type="checkbox" name="kerumunan" value="Ya_restoran">
+                    pandemi Covid-19</label><br>
+                    <input type="checkbox" name="kerumunan" value="1">
                     <label for="kerumunan">Ya, saya masih mengunjungi rumah makan/restoran/kedai kopi</label><br>
-                    <input type="checkbox" name="kerumunan" value="Tidak">
+                    <input type="checkbox" name="kerumunan" value="0">
                     <label for="kerumunan">Tidak, saya melakukan phsycal distancing dan karantina mandiri
-                      total</label><br>
+                    total</label><br>
                   </div>
                   <br><br>
 
@@ -328,8 +330,8 @@
                     <div class="custom-control custom-checkbox">
                       <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck1">
                       <label class="custom-control-label" for="exampleCheck1">Saya sudah membaca dan menyetujui <a
-                          href="" data-toggle="modal" data-target="#modal-tos-deteksi">syarat dan ketentuan yang
-                          berlaku</a>.</label>
+                        href="" data-toggle="modal" data-target="#modal-tos-deteksi">syarat dan ketentuan yang
+                      berlaku</a>.</label>
                     </div>
                   </div>
                 </div>
