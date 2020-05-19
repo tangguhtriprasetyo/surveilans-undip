@@ -68,35 +68,35 @@
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
               <div class="section-title" data-aos="fade-up">
-                <h4>Tingkat Kecemasan Pengguna Survei Penilaian Resiko Pribadi</h4>
-              </div>
+                <h6>Tingkat Kecemasan Pengguna Survei Penilaian Resiko Pribadi</h6>
                 <figure>
                   <canvas id="donutChart" width="300" height="300"></canvas>
                 </figure>
               </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 order-1 order-lg-2" data-aos="zoom-in">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
               <div class="section-title" data-aos="fade-up">
-                <h4>Hasil Survei Deteksi Dini</h4>
-              </div>
+                <h6>Hasil Survei Deteksi Dini Covid-19</h6>
                 <figure>
                   <canvas id="donutChart2" width="300" height="300"></canvas>
                 </figure>
               </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 order-1 order-lg-2" data-aos="zoom-in">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
               <div class="section-title" data-aos="fade-up">
-                <h4>Ketersediaan APD Pada Instansi Kesehatan</h4>
-              </div>
+                <h6>Ketersediaan APD Pada Instansi Kesehatan</h6>
                 <figure>
                   <canvas id="donutChart3" width="300" height="300"></canvas>
                 </figure>
+              </div>
               </div>
             </div>
           </div>

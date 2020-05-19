@@ -21,3 +21,4 @@
   <link href="<?php echo base_url('assets/vendor/aos/aos.css') ?>" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>

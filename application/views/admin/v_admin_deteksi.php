@@ -72,40 +72,10 @@
                           Pekerjaan
                         </th>
                         <th>
-                          Gejala
-                        </th>
-                        <th>
-                          Lama Gejala
-                        </th>
-                        <th>
-                          Riwayat Perjalanan
-                        </th>
-                        <th>
-                          Radius Kasus Covid-19
-                        </th>
-                        <th>
-                          Kontak Dengan Kasus Covid-19
-                        </th>
-                        <th>
-                          Karantina Mandiri
-                        </th>
-                        <th>
-                          Tindakan Pencegahan
-                        </th>
-                        <th>
-                          Tindakna Setelah Bepergian
-                        </th>
-                        <th>
-                          Penyemprotan Desinfektan
-                        </th>
-                        <th>
-                          Physical Distancing
-                        </th>
-                        <th>
-                          Kontak Dengan Kerumunan
+                          Skor
                         </th>
                         <th style="width: 8%" class="text-center">
-                            Status
+                            Hasil
                         </th>
                         <th style="width: 15%">
                         </th>
@@ -158,80 +128,6 @@
                         <td>
                             daw
                         </td>
-                        <td>
-                            daw
-                        </td>
-                        <td>
-                            daw
-                        </td>
-                        <td>
-                            daw
-                        </td>
-                        <td>
-                            daw
-                        </td>
-                        <td>
-                          Baiik
-                        </td>
-                        <td>
-                          <ul class="list-inline">
-                            <li class="list-inline-item">
-                               <strong>Dokter</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Laboran</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Perawat</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Driver Ambulance</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Cleaning Service</strong></br><center>3</center>
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <ul class="list-inline">
-                            <li class="list-inline-item">
-                               <strong>Masker Bedah</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Masker N95</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Face Shield</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Goggle</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Sarung Tangan Medis</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Hazmat</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Sepatu Boot</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Caps</strong></br><center>3</center>
-                            </li>
-                            <li class="list-inline-item">
-                              <strong>Shoe Cover</strong></br><center>3</center>
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                            daw
-                        </td>
-                        <td>
-                            daw
-                        </td>
-                        <td>
-                            data
-                        </td>
                         <td class="project-state">
                             <span class="badge badge-success">Success</span>
                         </td>
@@ -239,7 +135,7 @@
                             <a class="btn btn-primary btn-sm" href="#">
                                 <i class="fas fa-pencil-alt">
                                 </i>
-                                Edit Status
+                                Edit Hasil
                             </a>
                             <a class="btn btn-danger btn-sm" href="#">
                                 <i class="fas fa-trash">

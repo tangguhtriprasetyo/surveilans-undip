@@ -21,7 +21,7 @@
                     
                     <div class="alert alert-danger" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Sedang</strong></h2>
-                        <h2><strong>Saran :</strong> Perbanyak zikir, jangan banyak berdosa</h2>
+                        <h2><strong>Saran :</strong> Sementara hindari berita yang dapat mengganggu kenyamanan anda dan cari aktivitas yang dapat menenangkan hati.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: ddart@liveudinp</p>
                     </div>
                     <p><a class="btn btn-danger float-right" href="<?php echo base_url('') ?>">Update Kondisi</a></p>

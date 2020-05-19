@@ -21,8 +21,8 @@
                     
                     <div class="alert alert-danger" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Sedang</strong></h2>
-                        <h2><strong>Saran :</strong> Perbanyak zikir, jangan banyak berdosa</h2>
-                        <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: ddart@liveudinp</p>
+                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
                     <p><a class="btn btn-danger float-right" href="<?php echo base_url('') ?>">Update Kondisi</a></p>
                 </div>

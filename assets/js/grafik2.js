@@ -11,17 +11,15 @@ $(function () {
     var donutChartCanvas = $('#donutChart2').get(0).getContext('2d')
     var donutData        = {
       labels: [
-      'Chrome', 
-      'IE',
-      'FireFox', 
-      'Safari', 
-      'Opera', 
-      'Navigator', 
+      'Sehat', 
+      'Terindikasi Gejala Ringan',
+      'Terindikasi Gejala Sedang', 
+      'Terindikasi Gejala Berat', 
       ],
       datasets: [
       {
-        data: [700,500,400,600,300,100],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
+        data: [700,500,400,600,],
+        backgroundColor : ['#00a65a', '#00c0ef', '#f39c12', '#f56954'],
       }
       ]
     }
