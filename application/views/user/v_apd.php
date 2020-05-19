@@ -28,7 +28,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="<?php echo base_url('apd/add') ?>" method="post" enctype="multipart/form-data">
+              <form action="<?php echo base_url('apd/add') ?>" method="post" enctype="multipart/form-data" id="formApd">
                 <div class="card-body">
                   
                 <div class="section-title" data-aos="fade-up">

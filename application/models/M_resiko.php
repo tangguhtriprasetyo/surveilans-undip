@@ -29,6 +29,7 @@ class M_resiko extends CI_Model
     public function save()
     {
         $post = $this->input->post();
+        $str = implode(',', $_POST['kesulitan']);
         $this->id_kecemasan = 'DEFAULT';
         $this->nama = $post["nama"];
         $this->usia = $post["usia"];
@@ -38,9 +39,22 @@ class M_resiko extends CI_Model
         $this->wilayah = $post["wilayah"];
         $this->tempat_kerja = $post["tempat_kerja"];
         $this->wfh = $post["wfh"];
-        $this->kesulitan = $post["kesulitan"];
+        $this->kesulitan = $str;
         $this->pekerjaan = $post["pekerjaan"];
-        $this->skor = $post["skor"];
+        $this->skor += $post["ansietas"] + 
+        $post["ketegangan"] + 
+        $post["ketakutan"] + 
+        $post["gangguan"] + 
+        $post["intelek"] + 
+        $post["depresi"] + 
+        $post["somatik"] +  
+        $post["sensorik"] + 
+        $post["kardio"] + 
+        $post["respi"] + 
+        $post["gastro"] + 
+        $post["urogen"] + 
+        $post["otonom"] + 
+        $post["tingkah"];
         return $this->db->insert($this->_table, $this);
     }
 
