@@ -28,7 +28,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form" id="quickForm">
+              <form action="<?php echo base_url('resiko/add') ?>" method="post" enctype="multipart/form-data" id="formResiko">
                 <div class="card-body">
                 <div class="section-title" data-aos="fade-up">
                   <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
@@ -53,11 +53,6 @@
                   <div class="form-group">
                     <label for="exampleInputNama1">Nomer Handphone</label>
                     <input type="text" name="hp" class="form-control" id="exampleInputNoHP" placeholder="+62">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="exampleInputNama1">Tanggal</label>
-                    <input type="text" name="usia" class="form-control" id="exampleInputUsia1" placeholder="Usia">
                   </div>
 
                   <div class="form-group">
@@ -101,8 +96,8 @@
                   <label for="kerja">TNI</label><br>
                   <input type="radio" id="kerja" name="pekerjaan" value="Polri">
                   <label for="kerja">Polri</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" >
-                  <label for="kerja"><input type="text" id="kerja" name="pekerjaan" placeholder="Lainnya"></label><br>
+                    <input type="radio" id="kerja" onclick="document.getElementById('textkerja').readOnly = false;">
+                    <label for="Lainnya"> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" readonly> </label><br>
                 </div>
 
                 <div class="form-group">
@@ -120,17 +115,17 @@
 
                 <div class="form-group">
                   <label for="exampleInputKerja1">Jika anda bekerja, Apakah anda mengalami kesulitan selama ada kebijakan work from home ?</label><br>
-                  <input type="checkbox" id="kerja" name="kesulitan" value="kendala_jaringan">
+                  <input type="checkbox" id="kerja" name="kesulitan[]" value="kendala jaringan">
                   <label for="kerja">Kendala jaringan internet</label><br>
-                  <input type="checkbox" id="kerja" name="kesulitan" value="sulit_berkoordinasi">
+                  <input type="checkbox" id="kerja" name="kesulitan[]" value="sulit berkoordinasi">
                   <label for="kerja">Sulit berkoordinasi dengan rekan kerja</label><br>
-                  <input type="checkbox" id="kerja" name="kesulitan" value="kurang_dapat">
+                  <input type="checkbox" id="kerja" name="kesulitan[]" value="kurang dapat">
                   <label for="kerja">Kurang dapat mengontrol pekerjaan</label><br>
-                  <input type="checkbox" id="kerja" name="kesulitan" value="tugas_menumpuk">
+                  <input type="checkbox" id="kerja" name="kesulitan[]" value="tugas menumpuk">
                   <label for="kerja">Tugas menumpuk</label><br>
-                  <input type="checkbox" id="kerja" name="kesulitan" value="sulit_menentukan">
+                  <input type="checkbox" id="kerja" name="kesulitan[]" value="sulit menentukan">
                   <label for="kerja">Sulit menentukan prioritas</label><br>
-                  <input type="checkbox" id="kerja" name="kesulitan" value="mudah_bosan">
+                  <input type="checkbox" id="kerja" name="kesulitan[]" value="mudah bosan">
                   <label for="kerja">Mudah Bosan</label><br>
                 </div><br><br>
 
