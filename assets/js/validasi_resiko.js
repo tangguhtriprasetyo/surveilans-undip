@@ -4,28 +4,156 @@ $(document).ready(function () {
             alert("Form successful submitted!");
         }
     });
-    $('#quickForm').validate({
+    $('#formResiko').validate({
         rules: {
+            nama: {
+                required: true,
+            },
+            usia: {
+                required: true,
+            },
             email: {
                 required: true,
-                email: true,
             },
-            password: {
+            hp: {
                 required: true,
-                minlength: 5
+            },
+            posisi: {
+                required: true,
+            },
+            wilayah: {
+                required: true,
+            },
+            pekerjaan: {
+                required: true,
+            },
+            tempat_kerja: {
+                required: true,
+            },
+            wfh: {
+                required: true,
+            },
+            kesulitan: {
+                required: true,
+            },
+            ansietas: {
+                required: true,
+            },
+            ketegangan: {
+                required: true,
+            },
+            ketakutan: {
+                required: true,
+            },
+            gangguan: {
+                required: true,
+            },
+            intelek: {
+                required: true,
+            },
+            depresi: {
+                required: true,
+            },
+            somatik: {
+                required: true,
+            },
+            sensorik: {
+                required: true,
+            },
+            kardio: {
+                required: true,
+            },
+            respi: {
+                required: true,
+            },
+            gastro: {
+                required: true,
+            },
+            urogen: {
+                required: true,
+            },
+            otonom: {
+                required: true,
+            },
+            tingkah: {
+                required: true,
             },
             terms: {
                 required: true
             },
         },
         messages: {
-            email: {
-                required: "Please enter a email address",
-                email: "Please enter a vaild email address"
+            nama: {
+                required: "Masukkan nama anda"
             },
-            password: {
-                required: "Please provide a password",
-                minlength: "Your password must be at least 5 characters long"
+            usia: {
+                required: "Masukkan usia"
+            },
+            email: {
+                required: "Masukkan alamat email anda"
+            },
+            hp: {
+                required: "Masukkan nomer hp anda"
+            },
+            posisi: {
+                required: "Masukkan Nama Kota"
+            },
+            wilayah: {
+                required: "Pilih salah satu"
+            },
+            pekerjaan: {
+                required: "Pilih salah satu"
+            },
+            tempat_kerja: {
+                required: "Masukkan tempat kerja anda"
+            },
+            wfh: {
+                required: "Pilih salah satu"
+            },
+            kesulitan: {
+                required: "Pilih satu atau lebih"
+            },
+            ansietas: {
+                required: "Pilih salah satu"
+            },
+            ketegangan: {
+                required: "Pilih salah satu"
+            },
+            ketakutan: {
+                required: "Pilih salah satu"
+            },
+            gangguan: {
+                required: "Pilih salah satu"
+            },
+            intelek: {
+                required: "Pilih salah satu"
+            },
+            depresi: {
+                required: "Pilih salah satu"
+            },
+            somatik: {
+                required: "Pilih salah satu"
+            },
+            sensorik: {
+                required: "Pilih salah satu"
+            },
+            kardio: {
+                required: "Pilih salah satu"
+            },
+            respi: {
+                required: "Pilih salah satu"
+            },
+            gastro: {
+                required: "Pilih salah satu"
+            },
+            urogen: {
+                required: "Pilih salah satu"
+            },
+            otonom: {
+                required: "Pilih salah satu"
+            },
+            tingkah: {
+                required: "Pilih salah satu"
             },
             terms: "Please accept our terms"
         },
