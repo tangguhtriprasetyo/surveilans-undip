@@ -1,7 +1,7 @@
 <?php
 class M_apd extends CI_Model
 {
-    private $_table = "barang_bukti";
+    private $_table = "apd";
 
     public $id_instansi;
     public $nama;
@@ -70,7 +70,7 @@ class M_apd extends CI_Model
         $this->asal = $post["asal"];
         $this->bantuan = $post["bantuan"];
         $this->kebutuhan = $post["kebutuhan"];
-        $this->status = $post["status"];
+        $this->status = "Belum Diproses";
         $this->dokter = $post["dokter"];
         $this->laboran = $post["laboran"];
         $this->perawat = $post["perawat"];
@@ -111,7 +111,7 @@ class M_apd extends CI_Model
         $this->bantuan = $post["bantuan"];
         $this->kebutuhan = $post["kebutuhan"];
         $this->status = $post["status"];
-        $this->dokter = $post["dokter"];
+        $this->dokter = empty($post["dokter"]);
         $this->laboran = $post["laboran"];
         $this->perawat = $post["perawat"];
         $this->driver = $post["driver"];
