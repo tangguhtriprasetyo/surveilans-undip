@@ -28,7 +28,7 @@
             <a href="<?php echo base_url('admin/admin_kecemasan') ?>"<?php if ($this->uri->segment(2) == 'admin_kecemasan') {echo 'class="nav-link active"';} else echo 'class="nav-link"' ?>>
               
               <p>
-              Penilaian Resiko Pribadi
+              Penilaian Tingkat Kecemasan
               </p>
             </a>
           </li>
@@ -36,7 +36,7 @@
             <a href="<?php echo site_url('admin/admin_deteksi') ?>" <?php if ($this->uri->segment(2) == 'admin_deteksi') {echo 'class="nav-link active"';} else echo 'class="nav-link"' ?>>
               
               <p>
-                Deteksi Dini Gejala Covid-19
+                Deteksi Dini Gejala Covid-19 & Penilaian Resiko Pribadi
               </p>
             </a>
           </li>

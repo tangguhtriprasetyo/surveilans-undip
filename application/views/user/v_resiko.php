@@ -24,16 +24,16 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Form <small>Penilaian Resiko Pribadi</small></h3>
+                <h3 class="card-title">Form <small>Penilaian Tingkat Kecemasan</small></h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form action="<?php echo base_url('resiko/add') ?>" method="post" enctype="multipart/form-data" id="formResiko">
                 <div class="card-body">
-                <div class="section-title" data-aos="fade-up">
-                  <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
-                  <p>Semua data yang diperoleh pada form ini akan di jaga kerahasiaannya serta hanya akan digunakan untuk kepentingan Surveilens</p>
-                </div>
+                  <div class="section-title" data-aos="fade-up">
+                    <h2>Form Surveilens ini diinisiasi oleh DDART dan P2KKN UNDIP 2020</h2>
+                    <p>Semua data yang diperoleh pada form ini akan di jaga kerahasiaannya serta hanya akan digunakan untuk kepentingan Surveilens</p>
+                  </div>
 
                   <div class="form-group">
                     <label for="exampleInputNama1">Nama Lengkap</label>
@@ -96,8 +96,8 @@
                   <label for="kerja">TNI</label><br>
                   <input type="radio" id="kerja" name="pekerjaan" value="Polri">
                   <label for="kerja">Polri</label><br>
-                    <input type="radio" id="kerja" onclick="document.getElementById('textkerja').readOnly = false;">
-                    <label for="Lainnya"> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" readonly> </label><br>
+                  <input type="radio" id="kerja" onclick="document.getElementById('textkerja').readOnly = false;">
+                  <label for="Lainnya"> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" readonly> </label><br>
                 </div>
 
                 <div class="form-group">
@@ -127,6 +127,8 @@
                   <label for="kerja">Sulit menentukan prioritas</label><br>
                   <input type="checkbox" id="kerja" name="kesulitan[]" value="mudah bosan">
                   <label for="kerja">Mudah Bosan</label><br>
+                  <input type="checkbox" id="kerja" onclick="document.getElementById('textkesulitan').readOnly = false;">
+                  <label for="Lainnya"> <input type="text" id="textkesulitan" name="kesulitan[]" placeholder="  Lainnya" readonly> </label><br>
                 </div><br><br>
 
                 <div>
@@ -319,7 +321,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleInputNWilayah">14. Tingkah laku pada wawancara (gelisah, tidak tenang, jari gemetar, muka tegang)</label><br>
+                  <label for="exampleInputNWilayah">14. Tingkah laku pada saat berbicara dengan orang lain (gelisah, tidak tenang, jari gemetar, muka tegang)</label><br>
                   <input type="radio" id="psbb" name="tingkah" value="0">
                   <label for="psbb">0</label>
                   <input type="radio" id="psbb" name="tingkah" value="1">

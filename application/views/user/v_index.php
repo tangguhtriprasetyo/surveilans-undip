@@ -121,15 +121,15 @@
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="<?php echo base_url('deteksi') ?>">Deteksi Dini Covid - 19 & Penilaian Resiko Pribadi</a></h4>
-              <p class="description">Anda bisa melakukan Test Deteksi Dini disini</p>
+              <p class="description">Anda bisa melakukan Test Deteksi Dini dan Penilaian Resiko Pribadi disini</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="<?php echo base_url('resiko') ?>">Penilaian Resiko Pribadi</a></h4>
-              <p class="description">Anda bisa melakukan Penilaian Resiko Pribadi disini</p>
+              <h4 class="title"><a href="<?php echo base_url('resiko') ?>">Penilaian Tingkat Kecemasan</a></h4>
+              <p class="description">Anda bisa melakukan Penilaian Tingkat Kecemasan disini</p>
             </div>
           </div>
 

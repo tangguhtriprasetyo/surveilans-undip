@@ -30,8 +30,8 @@
               <!-- form start -->
               <form action="<?php echo base_url('apd/add') ?>" method="post" enctype="multipart/form-data" id="formApd">
                 <div class="card-body">
-                  
-                <div class="section-title" data-aos="fade-up">
+
+                  <div class="section-title" data-aos="fade-up">
                     <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
                   </div>
                   
@@ -149,52 +149,61 @@
                   <div class="form-group">
                     <label for="Tenaga Kesehatan">16. Jumlah tenaga kesehatan yang terlibat dalam penanganan Covid-19</label><br>
 
-                      <input type="checkbox" id="checkbox" /> Dokter
-                      <input style="margin: 8px;" name="dokter" type="number" id="textbox" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox2" /> Petugas Laboran
-                      <input style="margin: 8px;" name="laboran" type="number" id="textbox2" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox3" /> Perawat
-                      <input style="margin: 8px;" name="perawat" type="number" id="textbox3" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox4" /> Driver Ambulance
-                      <input style="margin: 8px;" name="driver" type="number" id="textbox4" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox5" /> Cleaning Service
-                      <input style="margin: 8px;" name="cs" type="number" id="textbox5" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox" /> Dokter
+                    <input style="margin: 8px;" name="dokter" type="number" id="textbox" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox2" /> Petugas Laboran
+                    <input style="margin: 8px;" name="laboran" type="number" id="textbox2" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox3" /> Perawat
+                    <input style="margin: 8px;" name="perawat" type="number" id="textbox3" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox4" /> Driver Ambulance
+                    <input style="margin: 8px;" name="driver" type="number" id="textbox4" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox5" /> Cleaning Service
+                    <input style="margin: 8px;" name="cs" type="number" id="textbox5" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox5" /> Security
+                    <input style="margin: 8px;" name="security" type="number" id="textbox5" placeholder="  Jumlah" readonly /> </br>
 
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">17. Bagaimana ketersediaan APD di Instansi Anda dalam satu pekan ini, sebutkan</label><br>
-                      
-                      <input type="checkbox" id="checkbox6" /> Masker Bedah
-                      <input style="margin: 8px;" name="bedah" type="number" id="textbox6" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox7" /> Masker N95
-                      <input style="margin: 8px;" name="n95" type="number" id="textbox7" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox8" /> Face Shield
-                      <input style="margin: 8px;" name="faceshield" type="number" id="textbox8" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox9" /> Goggle
-                      <input style="margin: 8px;" name="goggle" type="number" id="textbox9" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox10" /> Sarung Tangan Medis
-                      <input style="margin: 8px;" name="sarungtangan" type="number" id="textbox10" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox11" /> Hazmat
-                      <input style="margin: 8px;" name="hazmat" type="number" id="textbox11" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox12" /> Caps
-                      <input style="margin: 8px;" name="boot" type="number" id="textbox12" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox13" /> Bilik Swab
-                      <input style="margin: 8px;" name="caps" type="number" id="textbox13" placeholder="  Jumlah" readonly /> </br>
-                      
-                      <input type="checkbox" id="checkbox14" /> Shoe Cover
-                      <input style="margin: 8px;" name="cover" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox6" /> Masker Bedah
+                    <input style="margin: 8px;" name="bedah" type="number" id="textbox6" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox7" /> Masker N95
+                    <input style="margin: 8px;" name="n95" type="number" id="textbox7" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox8" /> Face Shield
+                    <input style="margin: 8px;" name="faceshield" type="number" id="textbox8" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox9" /> Goggle
+                    <input style="margin: 8px;" name="goggle" type="number" id="textbox9" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox10" /> Sarung Tangan Medis
+                    <input style="margin: 8px;" name="sarungtangan" type="number" id="textbox10" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox11" /> Hazmat
+                    <input style="margin: 8px;" name="hazmat" type="number" id="textbox11" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox12" /> Caps
+                    <input style="margin: 8px;" name="caps" type="number" id="textbox12" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox13" /> Bilik Swab
+                    <input style="margin: 8px;" name="swab" type="number" id="textbox13" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox14" /> Shoe Cover
+                    <input style="margin: 8px;" name="cover" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox14" /> Bilik Dekontaminan
+                    <input style="margin: 8px;" name="dekontaminan" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox14" /> Headbox
+                    <input style="margin: 8px;" name="headbox" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
 
                   </div>
 
@@ -262,49 +271,49 @@
   <script>
     $(function () {
       document.getElementById('checkbox').onchange = function() {
-      document.getElementById('textbox').readOnly = !this.checked;
-    };
+        document.getElementById('textbox').readOnly = !this.checked;
+      };
       document.getElementById('checkbox2').onchange = function() {
-      document.getElementById('textbox2').readOnly = !this.checked;
-    };
+        document.getElementById('textbox2').readOnly = !this.checked;
+      };
       document.getElementById('checkbox3').onchange = function() {
-      document.getElementById('textbox3').readOnly = !this.checked;
-    };
+        document.getElementById('textbox3').readOnly = !this.checked;
+      };
       document.getElementById('checkbox4').onchange = function() {
-      document.getElementById('textbox4').readOnly = !this.checked;
-    };
+        document.getElementById('textbox4').readOnly = !this.checked;
+      };
       document.getElementById('checkbox5').onchange = function() {
-      document.getElementById('textbox5').readOnly = !this.checked;
-    };
+        document.getElementById('textbox5').readOnly = !this.checked;
+      };
       document.getElementById('checkbox6').onchange = function() {
-      document.getElementById('textbox6').readOnly = !this.checked;
-    };
+        document.getElementById('textbox6').readOnly = !this.checked;
+      };
       document.getElementById('checkbox7').onchange = function() {
-      document.getElementById('textbox7').readOnly = !this.checked;
-    };
+        document.getElementById('textbox7').readOnly = !this.checked;
+      };
       document.getElementById('checkbox8').onchange = function() {
-      document.getElementById('textbox8').readOnly = !this.checked;
-    };
+        document.getElementById('textbox8').readOnly = !this.checked;
+      };
       document.getElementById('checkbox9').onchange = function() {
-      document.getElementById('textbox9').readOnly = !this.checked;
-    };
+        document.getElementById('textbox9').readOnly = !this.checked;
+      };
       document.getElementById('checkbox10').onchange = function() {
-      document.getElementById('textbox10').readOnly = !this.checked;
-    };
+        document.getElementById('textbox10').readOnly = !this.checked;
+      };
       document.getElementById('checkbox11').onchange = function() {
-      document.getElementById('textbox11').readOnly = !this.checked;
-    };
+        document.getElementById('textbox11').readOnly = !this.checked;
+      };
       document.getElementById('checkbox12').onchange = function() {
-      document.getElementById('textbox12').readOnly = !this.checked;
-    };
+        document.getElementById('textbox12').readOnly = !this.checked;
+      };
       document.getElementById('checkbox13').onchange = function() {
-      document.getElementById('textbox13').readOnly = !this.checked;
-    };
+        document.getElementById('textbox13').readOnly = !this.checked;
+      };
       document.getElementById('checkbox14').onchange = function() {
-      document.getElementById('textbox14').readOnly = !this.checked;
-    };
+        document.getElementById('textbox14').readOnly = !this.checked;
+      };
 
-  })
-</script>
+    })
+  </script>
 </body>
 </html>

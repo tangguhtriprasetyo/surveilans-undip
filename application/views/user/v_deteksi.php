@@ -24,14 +24,14 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Form <small>Penilaian Resiko Pribadi</small></h3>
+                <h3 class="card-title">Form <small>Deteksi Dini dan Penilaian Resiko Pribadi</small></h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form action="<?php echo base_url('deteksi/add') ?>" method="post" enctype="multipart/form-data" id="formDeteksi">
                 <div class="card-body">
                 <div class="section-title" data-aos="fade-up">
-                  <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
+                  <h2>Form Surveilens ini diinisiasi oleh DDART dan P2KKN UNDIP 2020</h2>
                   <p>Semua data yang diperoleh pada form ini akan di jaga kerahasiaannya serta hanya akan digunakan untuk kepentingan Surveilens</p>
                 </div>
 
