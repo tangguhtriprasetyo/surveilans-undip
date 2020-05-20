@@ -120,7 +120,7 @@
 
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="<?php echo base_url('deteksi') ?>">Deteksi Dini Covid - 19</a></h4>
+              <h4 class="title"><a href="<?php echo base_url('deteksi') ?>">Deteksi Dini Covid - 19 & Penilaian Resiko Pribadi</a></h4>
               <p class="description">Anda bisa melakukan Test Deteksi Dini disini</p>
             </div>
           </div>

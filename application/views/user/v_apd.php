@@ -190,7 +190,7 @@
                       <input type="checkbox" id="checkbox12" /> Caps
                       <input style="margin: 8px;" name="boot" type="number" id="textbox12" placeholder="  Jumlah" readonly /> </br>
                       
-                      <input type="checkbox" id="checkbox13" /> Driver Ambulance
+                      <input type="checkbox" id="checkbox13" /> Bilik Swab
                       <input style="margin: 8px;" name="caps" type="number" id="textbox13" placeholder="  Jumlah" readonly /> </br>
                       
                       <input type="checkbox" id="checkbox14" /> Shoe Cover

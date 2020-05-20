@@ -20,7 +20,6 @@
                   </div>
                   <?php 
                     $skor = $resiko->skor;
-                    echo $skor;
                     if ($skor < 14) :?>
                     <div class="alert alert-success" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda tidak memmpunyai kecemasan.</strong></h2>
