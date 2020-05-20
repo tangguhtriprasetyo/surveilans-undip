@@ -20,6 +20,7 @@
                   </div>
                   <?php 
                     $skor = $resiko->skor;
+                    echo $skor;
                     if ($skor < 14) :?>
                     <div class="alert alert-success" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda tidak memmpunyai kecemasan.</strong></h2>
@@ -32,13 +33,13 @@
                         <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
-                    <?php elseif ($skor > 22 && $skor <= 27):?>
+                    <?php elseif ($skor >= 20 && $skor <= 28):?>
                     <div class="alert alert-warning" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Sedang</strong></h2>
                         <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
-                    <?php elseif ($skor >= 41 ):?>
+                    <?php elseif ($skor > 28 ):?>
                     <div class="alert alert-danger" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Berat</strong></h2>
                         <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
@@ -46,7 +47,7 @@
                     </div>
 
                     <?php endif; ?>
-                    <p><a class="btn btn-danger float-right" href="<?php echo base_url('') ?>">Update Kondisi</a></p>
+                    <p><a class="btn btn-danger float-right" href="<?php echo site_url('resiko/edit/' .$resiko->id_kecemasan) ?>">Update Kondisi</a></p>
                 </div>
             </div>
             <div class="col-lg-6 order-3 order-lg-2 hero-img" data-aos="fade-left">

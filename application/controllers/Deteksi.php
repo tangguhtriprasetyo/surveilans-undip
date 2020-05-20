@@ -33,14 +33,24 @@ class Deteksi extends CI_Controller {
 		$this->load->view('user/v_cari_deteksi');
 	}
 
+	public function update()
+	{
+		$deteksi = $this->m_deteksi;
+		
+		$deteksi->update();
+		$this->hasil();
+	}
+
     public function edit($id = null)
     {
-        $deteksi = $this->m_deteksi;
+		if (!isset($id)) redirect('deteksi');
+		$deteksi = $this->m_deteksi;
+		
 
         $data["deteksi"] = $deteksi->getById($id);
         if (!$data["deteksi"]) show_404();
         
-        $this->template_admin->load('/admin/template_admin', '/admin/editBarbuk', $data);
+        $this->load->view('user/v_deteksi_update', $data);
     }
 
     public function delete($id=null)

@@ -4,7 +4,7 @@
 
         <ol>
           <li><a href="<?php echo base_url('') ?>">Home</a></li>
-          <li>Form Gejala</li>
+          <li>Form</li>
         </ol>
       </div>
     </section>

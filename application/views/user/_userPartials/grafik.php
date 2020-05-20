@@ -14,8 +14,7 @@ var donutData        = {
   'Tidak Ada Kecemasan', 
   'Kecemasan Ringan',
   'Kecemasan Sedang', 
-  'Kecemasan Berat', 
-  'Kecemasan Berat Sekali / Panik',
+  'Kecemasan Berat',
   ],
   datasets: [
   {
@@ -31,7 +30,7 @@ var donutData        = {
       <?php echo $tiga->num_rows(); ?>,
       <?php echo $empat->num_rows(); ?>
     ],
-    backgroundColor : ['#00a65a', '#00c0ef', '#3c8dbc', '#f39c12', '#f56954'],
+    backgroundColor : ['#00a65a', '#00c0ef', '#f39c12', '#f56954'],
   }
   ]
 }

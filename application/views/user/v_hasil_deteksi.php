@@ -40,7 +40,7 @@
                     </div>
 
                     <?php endif; ?>
-                    <p><a class="btn btn-danger float-right" href="<?php echo base_url('') ?>">Update Kondisi</a></p>
+                    <p><a class="btn btn-danger float-right" href="<?php echo site_url('deteksi/edit/' .$deteksi->id_deteksi) ?>">Update Kondisi</a></p>
                 </div>
             </div>
             <div class="col-lg-6 order-3 order-lg-2 hero-img" data-aos="fade-left">

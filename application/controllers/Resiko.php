@@ -27,21 +27,32 @@ class Resiko extends CI_Controller {
 		$resiko->save();
         $this->hasil();
 	}
-	
+
 	public function cari()
 	{
 		$this->load->view('user/v_cari_resiko');
 	}
 
+	public function update()
+	{
+		$resiko = $this->m_resiko;
+		
+		$resiko->update();
+		$this->hasil();
+	}
+
     public function edit($id = null)
     {
-        $resiko = $this->m_resiko;
+		if (!isset($id)) redirect('resiko');
+		$resiko = $this->m_resiko;
+		
 
         $data["resiko"] = $resiko->getById($id);
         if (!$data["resiko"]) show_404();
         
-        $this->template_admin->load('/admin/template_admin', '/admin/editBarbuk', $data);
+        $this->load->view('user/v_resiko_update', $data);
     }
+
 
     public function delete($id=null)
     {
