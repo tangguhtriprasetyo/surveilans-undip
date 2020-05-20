@@ -132,4 +132,18 @@ class M_apd extends CI_Model
     {
         return $this->db->delete($this->_table, array("id_instansi" => $id));
     }
+
+    
+    public function baru()
+    {
+        $field = 'date';
+        $limit = 3;
+        $sort = 'ASC';
+        $this->db->select('*');
+        $this->db->from('apd');
+        $this->db->order_by($field,$sort);
+        $this->db->limit($limit);
+        
+        return $query=$this->db->get();
+    }
 }

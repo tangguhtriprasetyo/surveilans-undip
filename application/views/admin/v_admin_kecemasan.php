@@ -19,7 +19,15 @@
   <div class="content-wrapper">
 
     <!-- Content Header (Page header) -->
-        <?php $this->load->view("admin/_partials/breadcrumb.php") ?>
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Data Survei Penilaian Resiko Pribadi</h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
     <!-- /.content-header -->
 
     <!-- Main content -->
@@ -28,7 +36,10 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <h3 class="card-title">Data Surveyor Gejala</h3>
+              <h3 class="card-title">Data Surveyor</h3>
+              <a href="#" class="btn btn-sm btn-tool">Download Excel
+                    <i class="fas fa-download"></i>
+                  </a>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -54,9 +65,6 @@
                                 Posisi Sekarang
                             </th>
                             <th>
-                                Status Wilayah
-                            </th>
-                            <th>
                                 Pekerjaan
                             </th>
                             <th>
@@ -71,73 +79,63 @@
                             <th style="width: 8%" class="text-center">
                                 Skor
                             </th>
-                            <th style="width: 8%" class="text-center">
-                                Hasil
-                            </th>
                             <th style="width: 15%">
                             </th>
                         </tr>
                     </thead>
                     <tbody>
+                    <?php
+                        $no = 0;
+                        foreach ($resiko as $key => $resiko) {?>
                         <tr>
                             <td class="text-center">
-                                1
+                            <?php echo $no += 1; ?>
                             </td>
                             <td>
                                 <a>
-                                    AdminLTE v3
+                                <?php echo $resiko->nama ?>
                                 </a>
                                 <br/>
                                 <small>
-                                    Created 01.01.2019
+                                Diisi pada <?php echo $resiko->date ?>
                                 </small>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->email ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->usia ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->hp ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->posisi ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->pekerjaan ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->tempat_kerja ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->wfh ?>
                             </td>
                             <td>
-                                daw
+                                <?php echo $resiko->kesulitan ?>
                             </td>
-                            <td>
-                                daw
-                            </td>
-                            <td class="project_progress">
-                                data
-                            </td>
-                            <td class="project-state">
-                                <span class="badge badge-success">Success</span>
+                            <td> 
+                                <?php echo $resiko->skor ?>
                             </td>
                             <td class="project-actions text-right">
-                                <a class="btn btn-primary btn-sm" href="#">
-                                    <i class="fas fa-pencil-alt">
-                                    </i>
-                                    Edit Status
-                                </a>
-                                <a class="btn btn-danger btn-sm" href="#">
+                                <a class="btn btn-danger btn-sm" href="<?php echo site_url('admin/admin_kecemasan/delete/' .$resiko->id_kecemasan) ?>">
                                     <i class="fas fa-trash">
                                     </i>
                                     Delete
                                 </a>
                             </td>
                         </tr>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>

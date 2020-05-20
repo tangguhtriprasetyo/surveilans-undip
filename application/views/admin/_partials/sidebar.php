@@ -2,9 +2,9 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="<?php echo base_url('assets/admin/img/avatar2.png') ?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="<?php echo base_url('assets/img/ddart.png') ?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Admin Surveilans</span>
+      <span class="brand-text font-weight-light">Admin</span>
     </a>
 
     <!-- Sidebar -->
@@ -16,7 +16,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="<?php echo base_url('admin') ?>" class="nav-link active">
+            <a href="<?php echo base_url('admin') ?>" <?php if ($this->uri->segment(2) == '') {echo 'class="nav-link active"';} else echo 'class="nav-link"' ?>>
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -25,24 +25,24 @@
           </li>
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <a href="<?php echo base_url('admin/admin_kecemasan') ?>" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a href="<?php echo base_url('admin/admin_kecemasan') ?>"<?php if ($this->uri->segment(2) == 'admin_kecemasan') {echo 'class="nav-link active"';} else echo 'class="nav-link"' ?>>
+              
               <p>
-                Data Kecemasan
+              Penilaian Resiko Pribadi
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo site_url('admin/admin_deteksi') ?>" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a href="<?php echo site_url('admin/admin_deteksi') ?>" <?php if ($this->uri->segment(2) == 'admin_deteksi') {echo 'class="nav-link active"';} else echo 'class="nav-link"' ?>>
+              
               <p>
-                Data Gejala Covid
+                Deteksi Dini Gejala Covid-19
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo site_url('admin/admin_apd') ?>" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a href="<?php echo site_url('admin/admin_apd') ?>" <?php if ($this->uri->segment(2) == 'admin_apd') {echo 'class="nav-link active"';} else echo 'class="nav-link"' ?>>
+              
               <p>
                 Data Permohononan APD
               </p>

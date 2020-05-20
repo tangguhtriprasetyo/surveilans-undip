@@ -19,7 +19,15 @@
   <div class="content-wrapper">
 
     <!-- Content Header (Page header) -->
-        <?php $this->load->view("admin/_partials/breadcrumb.php") ?>
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Data Survei Deteksi Dini</h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
     <!-- /.content-header -->
 
     <!-- Main content -->
@@ -29,6 +37,9 @@
           <div class="card">
             <div class="card-header">
               <h3 class="card-title">Data Surveyor Gejala</h3>
+              <a href="#" class="btn btn-sm btn-tool">Download Excel
+                    <i class="fas fa-download"></i>
+                  </a>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -39,13 +50,13 @@
                             No
                         </th>
                         <th>
-                            Nama Instansi
+                            Nama
                         </th>
                         <th>
                             Jenis Kelamin
                         </th>
                         <th>
-                            Usia
+                            Tanggal Lahir
                         </th>
                         <th>
                             Email
@@ -74,76 +85,69 @@
                         <th>
                           Skor
                         </th>
-                        <th style="width: 8%" class="text-center">
-                            Hasil
-                        </th>
                         <th style="width: 15%">
                         </th>
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                        $no = 0;
+                        foreach ($deteksi as $key => $deteksi) {?>
                     <tr>
                         <td class="text-center">
-                            1
+                        <?php echo $no += 1; ?>
                         </td>
                         <td>
                             <a>
-                                AdminLTE v3
+                            <?php echo $deteksi->nama ?>
                             </a>
                             <br/>
                             <small>
-                                Created 01.01.2019
+                            <?php echo $deteksi->date ?>
                             </small>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->gender ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->ttl ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->email ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->hp ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->kerabat ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->tinggal ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->alamat ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->asal ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->pendidikan ?>
                         </td>
                         <td>
-                            daw
+                        <?php echo $deteksi->pekerjaan ?>
                         </td>
                         <td>
-                            daw
-                        </td>
-                        <td class="project-state">
-                            <span class="badge badge-success">Success</span>
+                        <?php echo $deteksi->skor ?>
                         </td>
                         <td class="project-actions text-right">
-                            <a class="btn btn-primary btn-sm" href="#">
-                                <i class="fas fa-pencil-alt">
-                                </i>
-                                Edit Hasil
-                            </a>
-                            <a class="btn btn-danger btn-sm" href="#">
+                            <a class="btn btn-danger btn-sm" href="<?php echo site_url('admin/admin_deteksi/delete/' .$deteksi->id_deteksi) ?>">
                                 <i class="fas fa-trash">
                                 </i>
                                 Delete
                             </a>
                         </td>
                     </tr>
+                  <?php } ?>
                 </tbody>
               </table>
             </div>
