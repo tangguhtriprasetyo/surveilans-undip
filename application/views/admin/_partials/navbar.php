@@ -13,7 +13,7 @@
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href=/pages/charts/chartjs.html class="btn btn-block btn-outline-danger"><Strong>LOGOUT</Strong> <i class="fas fa-sign-out-alt"></i></a>
+        <a href="<?php echo base_url('admin/login/logout') ?>" class="btn btn-block btn-outline-danger"><Strong>LOGOUT</Strong> <i class="fas fa-sign-out-alt"></i></a>
       </li>
     </ul>
   </nav>

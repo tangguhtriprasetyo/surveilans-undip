@@ -37,7 +37,7 @@
           <div class="card">
             <div class="card-header">
               <h3 class="card-title">Data Surveyor</h3>
-              <a href="#" class="btn btn-sm btn-tool">Download Excel
+              <a href="<?php echo site_url('admin/admin_kecemasan/export/') ?>" class="btn btn-sm btn-tool">Download Excel
                     <i class="fas fa-download"></i>
                   </a>
             </div>
@@ -128,12 +128,12 @@
                                 <?php echo $resiko->skor ?>
                             </td>
                             <td class="project-actions text-right">
-                                <a class="btn btn-danger btn-sm" href="<?php echo site_url('admin/admin_kecemasan/delete/' .$resiko->id_kecemasan) ?>">
-                                    <i class="fas fa-trash">
-                                    </i>
-                                    Delete
-                                </a>
-                            </td>
+                          <a class="btn btn-danger btn-sm" onclick="deleteConfirm('<?php echo site_url('admin/admin_kecemasan/delete/' .$resiko->id_kecemasan) ?>')" href="#!" class="btn  btn-danger" title="Hapus">
+                              <i class="fas fa-trash">
+                              </i>
+                              Delete
+                          </a>
+                      </td>
                         </tr>
                         <?php } ?>
                     </tbody>
@@ -177,5 +177,29 @@
   });
 </script>
 <!-- /.OPTIONAL SCRIPTS -->
+<script>
+function deleteConfirm(url){
+	$('#btn-delete').attr('href', url);
+	$('#deleteModal').modal();
+}
+</script>
+<!-- Logout Delete Confirmation-->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">Data yang dihapus tidak akan bisa dikembalikan.</div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+        <a id="btn-delete" class="btn btn-danger" href="#">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

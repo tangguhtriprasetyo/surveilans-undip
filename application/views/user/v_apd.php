@@ -147,7 +147,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="Tenaga Kesehatan">16. Jumlah tenaga kesehatan yang terlibat dalam penanganan Covid-19</label><br>
+                    <label for="Tenaga Kesehatan">16. Jumlah tenaga kerja yang terlibat dalam penanganan Covid-19</label><br>
 
                     <input type="checkbox" id="checkbox" /> Dokter
                     <input style="margin: 8px;" name="dokter" type="number" id="textbox" placeholder="  Jumlah" readonly /> </br>
@@ -164,46 +164,43 @@
                     <input type="checkbox" id="checkbox5" /> Cleaning Service
                     <input style="margin: 8px;" name="cs" type="number" id="textbox5" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox5" /> Security
-                    <input style="margin: 8px;" name="security" type="number" id="textbox5" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox6" /> Security
+                    <input style="margin: 8px;" name="security" type="number" id="textbox6" placeholder="  Jumlah" readonly /> </br>
 
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputNWilayah">17. Bagaimana ketersediaan APD di Instansi Anda dalam satu pekan ini, sebutkan</label><br>
 
-                    <input type="checkbox" id="checkbox6" /> Masker Bedah
-                    <input style="margin: 8px;" name="bedah" type="number" id="textbox6" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox7" /> Masker Bedah
+                    <input style="margin: 8px;" name="bedah" type="number" id="textbox7" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox7" /> Masker N95
-                    <input style="margin: 8px;" name="n95" type="number" id="textbox7" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox8" /> Masker N95
+                    <input style="margin: 8px;" name="n95" type="number" id="textbox8" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox8" /> Face Shield
-                    <input style="margin: 8px;" name="faceshield" type="number" id="textbox8" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox9" /> Face Shield
+                    <input style="margin: 8px;" name="faceshield" type="number" id="textbox9" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox9" /> Goggle
-                    <input style="margin: 8px;" name="goggle" type="number" id="textbox9" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox10" /> Goggle
+                    <input style="margin: 8px;" name="goggle" type="number" id="textbox10" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox10" /> Sarung Tangan Medis
-                    <input style="margin: 8px;" name="sarungtangan" type="number" id="textbox10" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox11" /> Sarung Tangan Medis
+                    <input style="margin: 8px;" name="sarungtangan" type="number" id="textbox11" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox11" /> Hazmat
-                    <input style="margin: 8px;" name="hazmat" type="number" id="textbox11" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox12" /> Hazmat
+                    <input style="margin: 8px;" name="hazmat" type="number" id="textbox12" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox12" /> Caps
-                    <input style="margin: 8px;" name="caps" type="number" id="textbox12" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox13" /> Caps
+                    <input style="margin: 8px;" name="caps" type="number" id="textbox13" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox13" /> Bilik Swab
-                    <input style="margin: 8px;" name="swab" type="number" id="textbox13" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox15" /> Shoe Cover
+                    <input style="margin: 8px;" name="cover" type="number" id="textbox15" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox14" /> Shoe Cover
-                    <input style="margin: 8px;" name="cover" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox16" /> Bilik Dekontaminan
+                    <input style="margin: 8px;" name="dekontaminan" type="number" id="textbox16" placeholder="  Jumlah" readonly /> </br>
 
-                    <input type="checkbox" id="checkbox14" /> Bilik Dekontaminan
-                    <input style="margin: 8px;" name="dekontaminan" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
-
-                    <input type="checkbox" id="checkbox14" /> Headbox
-                    <input style="margin: 8px;" name="headbox" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
+                    <input type="checkbox" id="checkbox17" /> Headbox
+                    <input style="margin: 8px;" name="headbox" type="number" id="textbox17" placeholder="  Jumlah" readonly /> </br>
 
                   </div>
 
@@ -223,7 +220,7 @@
                     <label for="exampleInputNWilayah">19. Apakah instansi Anda pernah menerima bantuan APD dari D-DART</label><br>
                     <input type="radio" id="psbb" name="bantuan" value="Pernah">
                     <label for="psbb">Pernah</label><br>
-                    <input type="radio" id="psbb" name="bantuan" value="Belum Pernah">
+                    <input type="radio" id="psbb" name="bantuan" value="Belum">
                     <label for="psbb">Belum Pernah</label>
                   </div>
 
@@ -267,6 +264,7 @@
   <!-- MAIN SCRIPTS -->
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
+<script src="<?php echo base_url('assets/js/validasi_apd.js') ?>"></script>
   <!-- OPTIONAL SCRIPTS -->
   <script>
     $(function () {
@@ -311,6 +309,18 @@
       };
       document.getElementById('checkbox14').onchange = function() {
         document.getElementById('textbox14').readOnly = !this.checked;
+      };
+
+      document.getElementById('checkbox15').onchange = function() {
+        document.getElementById('textbox15').readOnly = !this.checked;
+      };
+
+      document.getElementById('checkbox16').onchange = function() {
+        document.getElementById('textbox16').readOnly = !this.checked;
+      };
+
+      document.getElementById('checkbox17').onchange = function() {
+        document.getElementById('textbox17').readOnly = !this.checked;
       };
 
     })

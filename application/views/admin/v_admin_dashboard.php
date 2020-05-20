@@ -118,5 +118,32 @@
   <?php $this->load->view("user/_userPartials/grafik.php") ?>
   <?php $this->load->view("user/_userPartials/grafik2.php") ?>
   <?php $this->load->view("user/_userPartials/grafik3.php") ?>
+  
+    <script>
+        $('#input_mask').inputmask({
+            mask: 'SJ-AAA-****-99999',
+            definitions: {
+                A: {
+                    validator: "[A-Za-z0-9 ]"
+                },
+            },            
+        });
+
+        $("#input_mask_date_time").inputmask("datetime", {
+            mask: "y-1-2 h:s:s",
+            placeholder: "yyyy-mm-dd hh:mm:ss",
+            separator: "-",
+            hourFormat : 12
+        });
+
+        $("#input_mask_currency").inputmask({
+            prefix : 'Rp ',
+            radixPoint: ',',
+            groupSeparator: ".",
+            alias: "numeric",
+            autoGroup: true,
+            digits: 0
+        });
+    </script>
 </body>
 </html>

@@ -96,8 +96,8 @@
                   <label for="kerja">TNI</label><br>
                   <input type="radio" id="kerja" name="pekerjaan" value="Polri">
                   <label for="kerja">Polri</label><br>
-                  <input type="radio" id="kerja" onclick="document.getElementById('textkerja').readOnly = false;">
-                  <label for="Lainnya"> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" readonly> </label><br>
+                  <input type="radio" id="kerja" name="pekerjaan" onchange="document.getElementById('textkerja').disabled = false;">
+                  <label for="kerja"></label> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" disabled> <br>
                 </div>
 
                 <div class="form-group">

@@ -37,9 +37,12 @@
           <div class="card">
             <div class="card-header">
               <h3 class="card-title">Data Pemohon</h3>
-              <a href="#" class="btn btn-sm btn-tool">Download Excel
-                    <i class="fas fa-download"></i>
-                  </a>
+              <a href="<?php echo site_url('admin/admin_apd/export2/') ?>" class="btn btn-sm btn-tool">Download Excel Data Ketersediaan APD
+                  <i class="fas fa-download"></i>
+              </a>
+              <a href="<?php echo site_url('admin/admin_apd/export/') ?>" class="btn btn-sm btn-tool">Download Excel Data Permohonan APD
+                  <i class="fas fa-download"></i>
+              </a>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -54,6 +57,9 @@
                         </th>
                         <th>
                             Jenis Instansi
+                        </th>
+                        <th>
+                            Alamat
                         </th>
                         <th>
                             Kontak
@@ -86,10 +92,13 @@
                           Tersedia Thermometer Infrared
                         </th>
                         <th>
+                          Tersedia Ruang Isolasi
+                        </th>
+                        <th>
                           Kondisi Ruang Isolasi
                         </th>
                         <th>
-                          Jumlah Tenaga Kesehatan
+                          Jumlah Tenaga Kerja
                         </th>
                         <th>
                           Ketersediaan APD
@@ -156,6 +165,12 @@
                         <?php echo $apd->swab ?>
                         </td>
                         <td>
+                        <?php echo $apd->sanitizer ?>
+                        </td>
+                        <td>
+                        <?php echo $apd->thermo ?>
+                        </td>
+                        <td>
                         <?php echo $apd->isolasi ?>
                         </td>
                         <td>
@@ -177,6 +192,9 @@
                             </li>
                             <li class="list-inline-item">
                               <strong>Cleaning Service</strong></br><center><?php echo $apd->cs ?></center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Security</strong></br><center><?php echo $apd->security ?></center>
                             </li>
                           </ul>
                         </td>
@@ -201,13 +219,16 @@
                               <strong>Hazmat</strong></br><center><?php echo $apd->hazmat ?></center>
                             </li>
                             <li class="list-inline-item">
-                              <strong>Sepatu Boot</strong></br><center><?php echo $apd->boot ?></center>
+                              <strong>Shoe Cover</strong></br><center><?php echo $apd->cover ?></center>
                             </li>
                             <li class="list-inline-item">
                               <strong>Caps</strong></br><center><?php echo $apd->caps ?></center>
                             </li>
                             <li class="list-inline-item">
-                              <strong>Shoe Cover</strong></br><center><?php echo $apd->cover ?></center>
+                              <strong>Bilik Dekontaminan</strong></br><center><?php echo $apd->dekon ?></center>
+                            </li>
+                            <li class="list-inline-item">
+                              <strong>Headbox</strong></br><center><?php echo $apd->headbox ?></center>
                             </li>
                           </ul>
                         </td>
@@ -221,7 +242,7 @@
                         <?php echo $apd->kebutuhan ?>
                         </td>
                         <td class="project-actions text-right">
-                          <a class="btn btn-danger btn-sm" href="#">
+                          <a class="btn btn-danger btn-sm" onclick="deleteConfirm('<?php echo site_url('admin/admin_apd/delete/' .$apd->id_instansi) ?>')" href="#!" class="btn  btn-danger" title="Hapus">
                               <i class="fas fa-trash">
                               </i>
                               Delete
@@ -257,6 +278,7 @@
 </div>
 <!-- ./wrapper -->
 
+
 <!-- REQUIRED SCRIPTS -->
 <?php $this->load->view("admin/_partials/js.php") ?>
 <!-- /.REQUIRED SCRIPTS -->
@@ -270,5 +292,29 @@
   });
 </script>
 <!-- /.OPTIONAL SCRIPTS -->
+<script>
+function deleteConfirm(url){
+	$('#btn-delete').attr('href', url);
+	$('#deleteModal').modal();
+}
+</script>
+<!-- Logout Delete Confirmation-->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">Data yang dihapus tidak akan bisa dikembalikan.</div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+        <a id="btn-delete" class="btn btn-danger" href="#">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

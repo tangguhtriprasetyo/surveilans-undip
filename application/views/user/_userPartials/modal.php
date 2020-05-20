@@ -55,7 +55,7 @@
                 <div class="icon-box icon-box-pink text-center">
                   <div class="icon"><i class="bx bxl-dribbble"></i></div>
                   <h4 class="title"><a href="">Penilaian Resiko</a></h4>
-                  <p class="description">Saya Bertanggungjawab penuh dengan benar adanya, apa yang saya isikan di dalam form diatas</p>
+                  <p class="description">Saya menyatakan dengan sukarela tanpa ada paksaan dari pihak manapun menjadi responden dalam penelitian ini. Saya menyadari sepenuhnya bahwa data yang dihasilkan merupakan rahasia dan hanya digunakan untuk kebutuhan ilmiah atau perkembangan ilmu pengetahuan dan tidak akan merugikan saya, karena itu saya menyatakan bersedia terlibat dalam penelitian ini dengan memberikan jawaban yang sebenar-benarnya.</p>
                 </div>
               </div>
             </div>

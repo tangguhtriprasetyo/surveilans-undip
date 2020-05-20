@@ -22,13 +22,12 @@ class M_apd extends CI_Model
     public $asal;
     public $bantuan;
     public $kebutuhan;
-    public $status;
     public $dokter;
     public $laboran;
     public $perawat;
     public $driver;
     public $cs;
-    public $security
+    public $security;
     public $bedah;
     public $n95;
     public $faceshield;
@@ -36,10 +35,9 @@ class M_apd extends CI_Model
     public $sarungtangan;
     public $hazmat;
     public $caps;
-    public $swab
     public $cover;
-    public $dekontaminan
-    public $headbox
+    public $dekon;
+    public $headbox;
 
     public function getAll()
     {
@@ -73,13 +71,11 @@ class M_apd extends CI_Model
         $this->asal = $post["asal"];
         $this->bantuan = $post["bantuan"];
         $this->kebutuhan = $post["kebutuhan"];
-        $this->status = "Belum Diproses";
         $this->dokter = $post["dokter"];
         $this->laboran = $post["laboran"];
         $this->perawat = $post["perawat"];
         $this->driver = $post["driver"];
         $this->cs = $post["cs"];
-        $this->security = $post["security"];
         $this->bedah = $post["bedah"];
         $this->n95 = $post["n95"];
         $this->faceshield = $post["faceshield"];
@@ -89,8 +85,9 @@ class M_apd extends CI_Model
         $this->caps = $post["caps"];
         $this->swab = $post["swab"];
         $this->cover = $post["cover"];
-        $this->dekontaminan = $post["dekontaminan"];
+        $this->dekon = $post["dekontaminan"];
         $this->headbox = $post["headbox"];
+        $this->security = $post["security"];
         return $this->db->insert($this->_table, $this);
     }
 
@@ -116,13 +113,11 @@ class M_apd extends CI_Model
         $this->asal = $post["asal"];
         $this->bantuan = $post["bantuan"];
         $this->kebutuhan = $post["kebutuhan"];
-        $this->status = $post["status"];
         $this->dokter = empty($post["dokter"]);
         $this->laboran = $post["laboran"];
         $this->perawat = $post["perawat"];
         $this->driver = $post["driver"];
         $this->cs = $post["cs"];
-        $this->security = $post["security"];
         $this->bedah = $post["bedah"];
         $this->n95 = $post["n95"];
         $this->faceshield = $post["faceshield"];
@@ -132,7 +127,7 @@ class M_apd extends CI_Model
         $this->caps = $post["caps"];
         $this->swab = $post["swab"];
         $this->cover = $post["cover"];
-        $this->dekontaminan = $post["dekontaminan"];
+        $this->dekon = $post["dekontaminan"];
         $this->headbox = $post["headbox"];
         return $this->db->update($this->_table, $this, array('id_instansi' => $post['id']));
     }
