@@ -16,14 +16,30 @@
         <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div><div class="section-title" data-aos="fade-up">
-                    <h1>Hasil Deteksi Dini : Tangguh Tri Prasetyo</h1>
+                    <h1>Hasil Deteksi Dini Covid-19 : <?php echo $deteksi->nama; ?></h1>
                   </div>
-                    
-                    <div class="alert alert-danger" role="alert">
+                  <?php 
+                    $skor = $deteksi->skor;
+                    if ($skor<=11) :?>
+                    <div class="alert alert-success" role="alert">
+                        <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Ringan / Sehat</strong></h2>
+                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
+                    </div>
+                    <?php elseif ($skor > 11 && $skor <= 23):?>
+                    <div class="alert alert-warning" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Sedang</strong></h2>
                         <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
+                    <?php elseif ($skor > 23):?>
+                    <div class="alert alert-danger" role="alert">
+                        <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Berat</strong></h2>
+                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
+                    </div>
+
+                    <?php endif; ?>
                     <p><a class="btn btn-danger float-right" href="<?php echo base_url('') ?>">Update Kondisi</a></p>
                 </div>
             </div>
@@ -65,6 +81,6 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
-  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
+  <?php $this->load->view("user/_userPartials/grafik2.php") ?>
 </body>
 </html>

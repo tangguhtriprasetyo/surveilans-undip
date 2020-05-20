@@ -14,14 +14,14 @@
               <div class="col-md-6 ml-auto">
                 <div class="icon-box icon-box-pink text-center">
                   <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                  <h4 class="title"><a href="<?php echo base_url('hasil_deteksi/cari') ?>">Hasil Survei Deteksi Dini</a></h4>
+                  <h4 class="title"><a href="<?php echo base_url('deteksi/cari') ?>">Hasil Survei Deteksi Dini</a></h4>
                   <p class="description"> Cek hasil survei deteksi dini anda sebelumnya </p>
                 </div>
               </div>
               <div class="col-md-6 ml-auto">
                 <div class="icon-box icon-box-pink text-center">
                   <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                  <h4 class="title"><a href="<?php echo base_url('hasil_resiko/cari') ?>">Hasil Survei Kecemasan</a></h4>
+                  <h4 class="title"><a href="<?php echo base_url('resiko/cari') ?>">Hasil Survei Kecemasan</a></h4>
                   <p class="description"> Cek hasil survei penilaian resiko anda sebelumnya </p>
                 </div>
               </div>

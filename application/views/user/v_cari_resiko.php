@@ -26,18 +26,18 @@
               <div class="card-header">
                 <h3 class="card-title">Cari Hasil Survey</h3>
               </div>
-              <form class="form-horizontal">
+              <form class="form-horizontal" action="<?php echo base_url('resiko/hasil') ?>" method="post" enctype="multipart/form-data" id="formDeteksi">
                 <div class="card-body">
                   <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Nama</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                      <input type="text" name="nama" class="form-control" id="nama" placeholder="Nama">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">No. HP</label>
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                      <input type="number" class="form-control" id="inputPassword3" placeholder="+62">
+                      <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="Email">
                     </div>
                   </div>
                 </div>

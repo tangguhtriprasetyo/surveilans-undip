@@ -159,8 +159,8 @@
 <!-- OPTIONAL SCRIPTS -->
 
 <!-- /.OPTIONAL SCRIPTS -->
-  <script src="<?php echo base_url('assets/js/grafik.js') ?>"></script>
-  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
-  <script src="<?php echo base_url('assets/js/grafik3.js') ?>"></script>
+  <?php $this->load->view("user/_userPartials/grafik.php") ?>
+  <?php $this->load->view("user/_userPartials/grafik2.php") ?>
+  <?php $this->load->view("user/_userPartials/grafik3.php") ?>
 </body>
 </html>

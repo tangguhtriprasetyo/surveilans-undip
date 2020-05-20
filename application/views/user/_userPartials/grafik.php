@@ -1,3 +1,4 @@
+<script>
 $(function () {
 /* ChartJS
  * -------
@@ -18,7 +19,18 @@ var donutData        = {
   ],
   datasets: [
   {
-    data: [700,500,400,600,200],
+    data: [
+      <?php 
+      $satu = $this->db->query('SELECT * FROM kecemasan WHERE skor < 14');
+      $dua = $this->db->query('SELECT * FROM kecemasan WHERE skor BETWEEN  15 AND  21');
+      $tiga = $this->db->query('SELECT * FROM kecemasan WHERE skor BETWEEN 22 AND 28');
+      $empat = $this->db->query('SELECT * FROM kecemasan WHERE skor > 40');
+      ?>
+      <?php echo $satu->num_rows(); ?>,
+      <?php echo $dua->num_rows(); ?>,
+      <?php echo $tiga->num_rows(); ?>,
+      <?php echo $empat->num_rows(); ?>
+    ],
     backgroundColor : ['#00a65a', '#00c0ef', '#3c8dbc', '#f39c12', '#f56954'],
   }
   ]
@@ -36,3 +48,5 @@ var donutChart = new Chart(donutChartCanvas, {
 })
 
 });
+</script>
+

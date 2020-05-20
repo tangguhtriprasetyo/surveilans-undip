@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    $.validator.setDefaults({
-        submitHandler: function () {
-            alert("Form successful submitted!");
-        }
-    });
     $('#formDeteksi').validate({
         rules: {
             nama: {
@@ -46,7 +41,7 @@ $(document).ready(function () {
                 required: true,
             },
             durasi: {
-                required: true,
+                required: false,
             },
             riwayat: {
                 required: true,

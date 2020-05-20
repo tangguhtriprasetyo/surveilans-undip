@@ -1,3 +1,4 @@
+<script>
 $(function () {
     /* ChartJS
      * -------
@@ -8,22 +9,27 @@ $(function () {
     //- DONUT CHART -
     //-------------
     // Get context with jQuery - using jQuery's .get() method.
-    var donutChartCanvas = $('#donutChart3').get(0).getContext('2d')
+    var donutChartCanvas = $('#donutChart2').get(0).getContext('2d')
     var donutData        = {
       labels: [
-      'Masker Bedah', 
-      'Masker N95',
-      'Face Shield', 
-      'Goggle', 
-      'Sarung Tangan Medis', 
-      'Sepatu Boot',  
-      'Caps', 
-      'Shoe Cover',
+      'Sehat', 
+      'Tingkat Resiko Ringan',
+      'Tingkat Resiko Sedang', 
+      'Tingkat Resiko Berat', 
       ],
       datasets: [
       {
-        data: [700,500,400,600,300,100,100,300],
-        backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de', '#00ff00', '#ff4500'],
+        data: [
+      <?php 
+      $satu = $this->db->query('SELECT * FROM deteksi WHERE skor < 11');
+      $dua = $this->db->query('SELECT * FROM deteksi WHERE skor BETWEEN  11 AND  23');
+      $tiga = $this->db->query('SELECT * FROM deteksi WHERE skor > 23');
+      ?>
+      <?php echo $satu->num_rows(); ?>,
+      <?php echo $dua->num_rows(); ?>,
+      <?php echo $tiga->num_rows(); ?>
+    ],
+        backgroundColor : ['#00a65a', '#00c0ef', '#f39c12', '#f56954'],
       }
       ]
     }
@@ -40,3 +46,4 @@ $(function () {
     })
     
     });
+</script>

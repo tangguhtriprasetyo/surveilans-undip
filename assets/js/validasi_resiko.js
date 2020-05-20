@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    $.validator.setDefaults({
-        submitHandler: function () {
-            alert("Form successful submitted!");
-        }
-    });
     $('#formResiko').validate({
         rules: {
             nama: {
@@ -83,9 +78,7 @@ $(document).ready(function () {
             },
         },
         messages: {
-            nama: {
-                required: "Masukkan nama anda"
-            },
+            nama: "Masukkan nama anda",
             usia: {
                 required: "Masukkan usia"
             },

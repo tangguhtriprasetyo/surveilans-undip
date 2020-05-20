@@ -13,14 +13,25 @@ class Resiko extends CI_Controller {
 	{
 		$this->load->view('user/v_resiko');
 	}
+	
+	public function hasil()
+    {
+        $data["resiko"] = $this->m_resiko->getHasil();
 
+        $this->load->view('user/v_hasil_resiko', $data);
+	}
+	
 	public function add()
     {
         $resiko = $this->m_resiko;
 		$resiko->save();
-
-        $this->load->view('user/v_hasil_resiko');
-    }
+        $this->hasil();
+	}
+	
+	public function cari()
+	{
+		$this->load->view('user/v_cari_resiko');
+	}
 
     public function edit($id = null)
     {

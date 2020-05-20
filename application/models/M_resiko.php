@@ -76,6 +76,17 @@ class M_resiko extends CI_Model
         return $this->db->update($this->_table, $this, array('id_kecemasan' => $post['id']));
     }
 
+    public function getHasil()
+    {
+        $post = $this->input->post();
+        $limit = 1;
+        $where_array = array(
+            'email'=> $post["email"],
+            'nama'=>$post["nama"]
+           );
+        return $this->db->get_where($this->_table, $where_array, $limit )->row();
+    }
+
     public function delete($id)
     {
         return $this->db->delete($this->_table, array("id_kecemasan" => $id));

@@ -80,7 +80,6 @@
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
               <div class="section-title" data-aos="fade-up">
-                <h6>Hasil Survei Deteksi Dini Covid-19</h6>
                 <figure>
                   <canvas id="donutChart2" width="300" height="300"></canvas>
                 </figure>
@@ -311,8 +310,8 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
-  <script src="<?php echo base_url('assets/js/grafik.js') ?>"></script>
-  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
-  <script src="<?php echo base_url('assets/js/grafik3.js') ?>"></script>
+  <?php $this->load->view("user/_userPartials/grafik.php") ?>
+  <?php $this->load->view("user/_userPartials/grafik2.php") ?>
+  <?php $this->load->view("user/_userPartials/grafik3.php") ?>
 </body>
 </html>

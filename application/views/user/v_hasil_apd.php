@@ -57,6 +57,5 @@
   <?php $this->load->view("user/_userPartials/js.php") ?>
   <!-- /.MAIN SCRIPTS -->
   <!-- OPTIONAL SCRIPTS -->
-  <script src="<?php echo base_url('assets/js/grafik2.js') ?>"></script>
 </body>
 </html>
