@@ -80,6 +80,7 @@
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
               <div class="section-title" data-aos="fade-up">
+              <h6>Hasil Survei Deteksi Dini Covid-19</h6>
                 <figure>
                   <canvas id="donutChart2" width="300" height="300"></canvas>
                 </figure>
