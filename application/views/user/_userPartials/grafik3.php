@@ -17,7 +17,7 @@ $(function () {
       'Face Shield', 
       'Goggle', 
       'Sarung Tangan Medis', 
-      'Sepatu Boot',  
+      'Hazmat',  
       'Caps', 
       'Shoe Cover',
       ],
@@ -43,7 +43,6 @@ $(function () {
                        $goggle +=$row['goggle'];
                        $sarungtangan +=$row['sarungtangan'];
                        $hazmat +=$row['hazmat'];
-                       $boot +=$row['boot'];
                        $caps +=$row['caps'];
                        $cover +=$row['cover'];
                     }
