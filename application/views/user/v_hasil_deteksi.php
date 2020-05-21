@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div><div class="section-title" data-aos="fade-up">
-                    <h1>Hasil Deteksi Dini Covid-19 : <?php echo $deteksi->nama; ?></h1>
+                    <h1>Hasil Deteksi Dini & Penilaian Resiko Pribadi Covid-19 : <?php echo $deteksi->nama; ?></h1>
                   </div>
                   <?php 
                     $skor = $deteksi->skor;
