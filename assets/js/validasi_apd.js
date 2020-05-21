@@ -41,7 +41,7 @@ $(document).ready(function () {
                 required: true,
             },
             sanitizer: {
-                required: false,
+                required: true,
             },
             thermo: {
                 required: true,
@@ -85,7 +85,7 @@ $(document).ready(function () {
             caps: {
                 required: false,
             },
-            apdswab: {
+            bilik_swab: {
                 required: false,
             },
             cover: {
@@ -192,7 +192,7 @@ $(document).ready(function () {
             caps: {
                 required: "Pilih salah satu",
             },
-            apdswab: {
+            bilik_swab: {
                 required: "Pilih salah satu",
             },
             cover: {

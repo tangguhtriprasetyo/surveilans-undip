@@ -37,7 +37,7 @@
           <div class="card">
             <div class="card-header">
               <h3 class="card-title">Data Surveyor Gejala</h3>
-              <a href="#" class="btn btn-sm btn-tool">Download Excel
+              <a href="<?php echo site_url('admin/admin_deteksi/export/') ?>" class="btn btn-sm btn-tool">Download Excel
                     <i class="fas fa-download"></i>
                   </a>
             </div>

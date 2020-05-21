@@ -27,7 +27,6 @@ class M_apd extends CI_Model
     public $perawat;
     public $driver;
     public $cs;
-    public $security;
     public $bedah;
     public $n95;
     public $faceshield;
@@ -38,6 +37,8 @@ class M_apd extends CI_Model
     public $cover;
     public $dekon;
     public $headbox;
+    public $security;
+    public $bilik_swab;
 
     public function getAll()
     {
@@ -83,11 +84,11 @@ class M_apd extends CI_Model
         $this->sarungtangan = $post["sarungtangan"];
         $this->hazmat = $post["hazmat"];
         $this->caps = $post["caps"];
-        $this->swab = $post["swab"];
         $this->cover = $post["cover"];
         $this->dekon = $post["dekontaminan"];
         $this->headbox = $post["headbox"];
         $this->security = $post["security"];
+        $this->bilik_swab = $post["bilik_swab"];
         return $this->db->insert($this->_table, $this);
     }
 

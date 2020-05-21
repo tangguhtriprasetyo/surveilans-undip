@@ -41,8 +41,8 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="exampleInputNama1">Usia</label>
-                    <input type="number" name="usia" class="form-control" id="exampleInputUsia1" placeholder="Usia">
+                    <label for="exampleInputNama1">Tanggal Lahir</label>
+                    <input type="date" name="ttl" class="form-control" id="exampleInputUsia1" placeholder="Usia">
                   </div>
 
                   <div class="form-group">
@@ -52,7 +52,7 @@
 
                   <div class="form-group">
                     <label for="exampleInputNama1">Nomer Handphone</label>
-                    <input type="text" name="hp" class="form-control" id="exampleInputNoHP" placeholder="+62">
+                    <input type="number" name="hp" class="form-control" id="exampleInputNoHP" placeholder="+62">
                   </div>
 
                   <div class="form-group">
@@ -76,25 +76,25 @@
                   <label for="exampleInputKerja1">Apa pekerjaan anda ?</label><br>
                   <input type="radio" id="kerja" name="pekerjaan" value="Mahasiswa">
                   <label for="kerja">Mahasiswa</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="Pelajar">
+                  <input type="radio" id="kerja" name="pekerjaan" value="Pelajar" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Pelajar</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="Dosen">
+                  <input type="radio" id="kerja" name="pekerjaan" value="Dosen" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Dosen</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="TenagaPendidikan">
+                  <input type="radio" id="kerja" name="pekerjaan" value="TenagaPendidikan" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Tenaga Pendidikan</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="CleaningService">
+                  <input type="radio" id="kerja" name="pekerjaan" value="CleaningService" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Cleaning Service</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="Security">
+                  <input type="radio" id="kerja" name="pekerjaan" value="Security" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Security</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="PNS">
+                  <input type="radio" id="kerja" name="pekerjaan" value="PNS" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">PNS</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="Wiraswasta">
+                  <input type="radio" id="kerja" name="pekerjaan" value="Wiraswasta" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Wiraswasta</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="TenagaMedis">
+                  <input type="radio" id="kerja" name="pekerjaan" value="TenagaMedis" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Tenaga Medis</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="TNI">
+                  <input type="radio" id="kerja" name="pekerjaan" value="TNI" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">TNI</label><br>
-                  <input type="radio" id="kerja" name="pekerjaan" value="Polri">
+                  <input type="radio" id="kerja" name="pekerjaan" value="Polri" onchange="document.getElementById('textkerja').disabled = true;">
                   <label for="kerja">Polri</label><br>
                   <input type="radio" id="kerja" name="pekerjaan" onchange="document.getElementById('textkerja').disabled = false;">
                   <label for="kerja"></label> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" disabled> <br>

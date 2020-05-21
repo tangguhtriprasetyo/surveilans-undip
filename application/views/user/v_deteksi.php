@@ -50,8 +50,8 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Tempat & Tanggal Lahir</label>
-                    <input type="text" name="ttl" class="form-control" id="exampleInputNama1"
+                    <label for="exampleInputEmail1">Tanggal Lahir</label>
+                    <input type="date" name="ttl" class="form-control" id="exampleInputNama1"
                     placeholder="Tempat Tanggal Lahir">
                   </div>
 
@@ -62,12 +62,12 @@
 
                   <div class="form-group">
                     <label for="exampleInputNama1">Nomer Handphone</label>
-                    <input type="text" name="hp" class="form-control" id="exampleInputNoHP" placeholder="+62">
+                    <input type="number" name="hp" class="form-control" id="exampleInputNoHP" placeholder="+62">
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Kontak Nomer/WA Kerabat yang bisa dihubungi</label>
-                    <input type="text" name="kerabat" class="form-control" id="exampleInputNama1" placeholder="">
+                    <input type="number" name="kerabat" class="form-control" id="exampleInputNama1" placeholder="">
                   </div>
 
                   <div class="form-group">
@@ -122,28 +122,28 @@
 
                   <div class="form-group">
                     <label for="exampleInputKelamin1">Jika sudah bekerja, apakah pekerjaan Anda ?</label><br>
-                    <input type="radio" name="pekerjaan" value="Dokter">
+                    <input type="radio" name="pekerjaan" value="Dokter" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Dokter / Paramedis</label><br>
-                    <input type="radio" name="pekerjaan" value="Dosen">
+                    <input type="radio" name="pekerjaan" value="Dosen" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Dosen / Guru</label><br>
-                    <input type="radio" name="pekerjaan" value="Polisi">
+                    <input type="radio" name="pekerjaan" value="Polisi" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Tentara / Polisi</label><br>
-                    <input type="radio" name="pekerjaan" value="Pedagang">
+                    <input type="radio" name="pekerjaan" value="Pedagang" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Pedagang</label><br>
-                    <input type="radio" name="pekerjaan" value="Petani">
+                    <input type="radio" name="pekerjaan" value="Petani" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Petani</label><br>
-                    <input type="radio" name="pekerjaan" value="Wiraswasta">
+                    <input type="radio" name="pekerjaan" value="Wiraswasta" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Wiraswasta</label><br>
-                    <input type="radio" name="pekerjaan" value="Swasta">
+                    <input type="radio" name="pekerjaan" value="Swasta" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Pegawai Swasta</label><br>
-                    <input type="radio" name="pekerjaan" value="BUMN">
+                    <input type="radio" name="pekerjaan" value="BUMN" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">PNS / Pegawai BUMN</label><br>
-                    <input type="radio" name="pekerjaan" value="ojol">
+                    <input type="radio" name="pekerjaan" value="ojol" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Driver Online</label><br>
-                    <input type="radio" name="pekerjaan" value="olshop">
+                    <input type="radio" name="pekerjaan" value="olshop" onchange="document.getElementById('textkerja').disabled = true;">
                     <label for="pekerjaan">Pedagang Online</label><br>
-                    <input type="radio" name="pekerjaan" value="lainnya">
-                    <label for="pekerjaan">Lainnya</label><br>
+                    <input type="radio" id="kerja" name="pekerjaan" onchange="document.getElementById('textkerja').disabled = false;">
+                    <label for="kerja"></label> <input type="text" id="textkerja" name="pekerjaan" placeholder="  Lainnya" disabled> <br>
                   </div>
 
                   <div class="form-group">
@@ -169,7 +169,7 @@
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Sudah berapa lama kamu merasakan gejala tersebut ?</label>
-                    <input type="text" name="durasi" class="form-control" id="textbox" placeholder="contoh : 6 hari" readonly>
+                    <input type="number" name="durasi" class="form-control" id="textbox" placeholder="Sebutkan Berapa Hari" readonly>
                   </div>
 
                   <div class="form-group">

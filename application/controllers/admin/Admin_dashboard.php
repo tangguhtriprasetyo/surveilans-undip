@@ -10,10 +10,7 @@ class Admin_dashboard extends CI_Controller {
             $this->load->view('admin/v_admin_dashboard');
             
 		} else{
-			echo "<script>
-			alert('Access Denied ! ');
-			window.location='".site_url('admin/login')."';
-			</script>";
+			$this->load->view('admin/v_login');
 		}
 		
 	}

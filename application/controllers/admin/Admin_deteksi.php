@@ -38,16 +38,17 @@ class Admin_deteksi extends CI_Controller {
                       ->setCellValue('A1', 'No')
                       ->setCellValue('B1', 'Tanggal Pengisian')
                       ->setCellValue('C1', 'Nama')
-                      ->setCellValue('D1', 'Email')
-                      ->setCellValue('E1', 'Usia')
-                      ->setCellValue('F1', 'No HP')
-                      ->setCellValue('G1', 'Posisi Sekarang')
-                      ->setCellValue('H1', 'Status Wilayah')
-                      ->setCellValue('I1', 'Pekerjaan')
-                      ->setCellValue('J1', 'WFH')
-                      ->setCellValue('K1', 'Kesulitan WFH')
-                      ->setCellValue('L1', 'Tempat Kerja')
-                      ->setCellValue('M1', 'Skor Survey');
+                      ->setCellValue('D1', 'Jenis Kelamin')
+                      ->setCellValue('E1', 'Tanggal Lahir')
+                      ->setCellValue('F1', 'Email')
+                      ->setCellValue('G1', 'No. HP')
+                      ->setCellValue('H1', 'No. Kerabat')
+                      ->setCellValue('I1', 'Tempat Tinggal')
+                      ->setCellValue('J1', 'Alamat')
+                      ->setCellValue('K1', 'Daerah Asal')
+                      ->setCellValue('L1', 'Pendidikan')
+                      ->setCellValue('M1', 'Pekerjaan')
+                      ->setCellValue('N1', 'Skor Survey');
 
           $kolom = 2;
           $nomor = 1;
@@ -57,16 +58,17 @@ class Admin_deteksi extends CI_Controller {
                            ->setCellValue('A' . $kolom, $nomor)
                            ->setCellValue('B' . $kolom, $deteksi->date)
                            ->setCellValue('C' . $kolom, $deteksi->nama)
-                           ->setCellValue('D' . $kolom, $deteksi->email)
-                           ->setCellValue('E' . $kolom, $deteksi->usia)
-                           ->setCellValue('F' . $kolom, $deteksi->hp)
-                           ->setCellValue('G' . $kolom, $deteksi->posisi)
-                           ->setCellValue('H' . $kolom, $deteksi->wilayah)
-                           ->setCellValue('I' . $kolom, $deteksi->pekerjaan)
-                           ->setCellValue('J' . $kolom, $deteksi->wfh)
-                           ->setCellValue('K' . $kolom, $deteksi->kesulitan)
-                           ->setCellValue('L' . $kolom, $deteksi->tempat_kerja)
-                           ->setCellValue('M' . $kolom, $deteksi->skor);
+                           ->setCellValue('D' . $kolom, $deteksi->gender)
+                           ->setCellValue('E' . $kolom, $deteksi->ttl)
+                           ->setCellValue('F' . $kolom, $deteksi->email)
+                           ->setCellValue('G' . $kolom, $deteksi->hp)
+                           ->setCellValue('H' . $kolom, $deteksi->kerabat)
+                           ->setCellValue('I' . $kolom, $deteksi->tinggal)
+                           ->setCellValue('J' . $kolom, $deteksi->alamat)
+                           ->setCellValue('K' . $kolom, $deteksi->asal)
+                           ->setCellValue('L' . $kolom, $deteksi->pendidikan)
+                           ->setCellValue('M' . $kolom, $deteksi->pekerjaan)
+                           ->setCellValue('N' . $kolom, $deteksi->skor);
 
                $kolom++;
                $nomor++;
@@ -76,7 +78,7 @@ class Admin_deteksi extends CI_Controller {
           $writer = new Xlsx($spreadsheet);
 		  ob_end_clean();
             header('Content-Type: application/vnd.ms-excel');
-	        header('Content-Disposition: attachment;filename="Data_Penilaian_Tingkat_Kecemasan.xlsx"');
+	        header('Content-Disposition: attachment;filename="Data_Hasil_Deteksi_dan_Penilaian_Resiko.xlsx"');
 	        header('Cache-Control: max-age=0');
 
 	  $writer->save('php://output');

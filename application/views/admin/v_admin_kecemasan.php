@@ -56,13 +56,16 @@
                                 Email
                             </th>
                             <th>
-                                Usia
+                                Tanggal Lahir
                             </th>
                             <th>
                                 No.Hp
                             </th>
                             <th>
                                 Posisi Sekarang
+                            </th>
+                            <th>
+                                Status Wilayah
                             </th>
                             <th>
                                 Pekerjaan
@@ -104,13 +107,16 @@
                                 <?php echo $resiko->email ?>
                             </td>
                             <td>
-                                <?php echo $resiko->usia ?>
+                                <?php echo $resiko->ttl ?>
                             </td>
                             <td>
                                 <?php echo $resiko->hp ?>
                             </td>
                             <td>
                                 <?php echo $resiko->posisi ?>
+                            </td>
+                            <td>
+                                <?php echo $resiko->wilayah ?>
                             </td>
                             <td>
                                 <?php echo $resiko->pekerjaan ?>

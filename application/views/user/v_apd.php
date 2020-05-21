@@ -43,8 +43,8 @@
                     <label for="Faskes Tingkat 2">Faskes tingkat 2</label><br>
                     <input type="radio" id="jenis" name="jenis" value="Faskes Tingkat 3" onclick="document.getElementById('textjenis').disabled = true;">
                     <label for="Faskes Tingkat 3">Faskes tingkat 3</label><br>
-                    <input type="radio" id="jenis" onclick="document.getElementById('textjenis').disabled = false;">
-                    <label for="Lainnya"> <input type="text" id="textjenis" name="jenis" placeholder="  Lainnya" disabled="disabled"> </label><br>
+                    <input type="radio" id="jenis" name="jenis" value="Faskes Tingkat 3" onclick="document.getElementById('textjenis').disabled = false;">
+                    <label for="Faskes Tingkat 3"> <input type="text" id="textjenis" name="jenis" placeholder="  Lainnya" disabled="disabled"> </label><br>
                   </div>
 
                   <div class="form-group">
@@ -201,6 +201,9 @@
 
                     <input type="checkbox" id="checkbox17" /> Headbox
                     <input style="margin: 8px;" name="headbox" type="number" id="textbox17" placeholder="  Jumlah" readonly /> </br>
+
+                    <input type="checkbox" id="checkbox14" /> Bilik Swab
+                    <input style="margin: 8px;" name="bilik_swab" type="number" id="textbox14" placeholder="  Jumlah" readonly /> </br>
 
                   </div>
 

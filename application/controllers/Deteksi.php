@@ -16,9 +16,15 @@ class Deteksi extends CI_Controller {
 
 	public function hasil()
     {
-        $data["deteksi"] = $this->m_deteksi->getHasil();
-
-        $this->load->view('user/v_hasil_deteksi', $data);
+		$data["deteksi"] = $this->m_deteksi->getHasil();
+		$check = $this->m_deteksi->getHasil();
+		
+		if ($check == !null) {
+			$this->load->view('user/v_hasil_deteksi', $data);
+		} else {
+			$this->load->view('user/v_cari_gagal', $data);
+		}
+        
 	}
 	
 	public function add()

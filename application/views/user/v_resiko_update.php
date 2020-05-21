@@ -30,7 +30,7 @@
               <!-- form start -->
               <form action="<?php echo base_url('resiko/update') ?>" method="post" enctype="multipart/form-data" id="formResiko">
               <input type="hidden" name="id" value="<?php echo $resiko->id_kecemasan?>" />
-              <input type="hidden" name="usia" value="<?php echo $resiko->usia?>" />
+              <input type="hidden" name="ttl" value="<?php echo $resiko->ttl?>" />
               <input type="hidden" name="hp" value="<?php echo $resiko->hp?>" />
               <input type="hidden" name="wilayah" value="<?php echo $resiko->wilayah?>" />
               <input type="hidden" name="tempat_kerja" value="<?php echo $resiko->tempat_kerja?>" />

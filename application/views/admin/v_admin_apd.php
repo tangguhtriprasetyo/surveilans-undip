@@ -230,6 +230,9 @@
                             <li class="list-inline-item">
                               <strong>Headbox</strong></br><center><?php echo $apd->headbox ?></center>
                             </li>
+                            <li class="list-inline-item">
+                              <strong>Bilik Swab</strong></br><center><?php echo $apd->bilik_swab ?></center>
+                            </li>
                           </ul>
                         </td>
                         <td>

@@ -31,7 +31,7 @@
               <form action="<?php echo base_url('deteksi/update') ?>" method="post" enctype="multipart/form-data" id="formDeteksiUpdate">
               <input type="hidden" name="id" value="<?php echo $deteksi->id_deteksi?>" />
               <input type="hidden" name="gender" value="<?php echo $deteksi->gender?>" />
-              <input type="hidden" name="ttl" value="<?php echo $ttleteksi->ttl?>" />
+              <input type="hidden" name="ttl" value="<?php echo $deteksi->ttl?>" />
               <input type="hidden" name="hp" value="<?php echo $deteksi->hp?>" />
               <input type="hidden" name="tinggal" alamat="<?php echo $deteksi->tinggal?>" />
               <input type="hidden" name="alamat" asal="<?php echo $deteksi->alamat?>" />
@@ -56,7 +56,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Kontak Nomer/WA Kerabat yang bisa dihubungi</label>
-                    <input type="text" name="kerabat" class="form-control" id="exampleInputNama1" placeholder="" value="<?php echo $deteksi->kerabat ?>">
+                    <input type="number" name="kerabat" class="form-control" id="exampleInputNama1" placeholder="" value="<?php echo $deteksi->kerabat ?>">
                   </div>
 
                   <div class="form-group">
@@ -82,7 +82,7 @@
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Sudah berapa lama kamu merasakan gejala tersebut ?</label>
-                    <input type="text" name="durasi" class="form-control" id="textbox" placeholder="contoh : 6 hari" readonly>
+                    <input type="number" name="durasi" class="form-control" id="textbox" placeholder="Sebutkan Berapa Hari" readonly>
                   </div>
 
                   <div class="form-group">

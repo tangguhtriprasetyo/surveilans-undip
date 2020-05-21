@@ -47,7 +47,7 @@ class Login extends CI_Controller
 
                 $this->session->set_userdata($username);
 
-                redirect(base_url('admin/admin_dashboard'));
+                redirect(base_url('admin'));
             }
 
             $this->load->view('admin/v_login');

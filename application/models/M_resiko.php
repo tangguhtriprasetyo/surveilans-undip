@@ -5,7 +5,7 @@ class M_resiko extends CI_Model
 
     public $id_kecemasan;
     public $nama;
-    public $usia;
+    public $ttl;
     public $email;
     public $hp;
     public $posisi;
@@ -32,7 +32,7 @@ class M_resiko extends CI_Model
         $str = implode(',', $_POST['kesulitan']);
         $this->id_kecemasan = 'DEFAULT';
         $this->nama = $post["nama"];
-        $this->usia = $post["usia"];
+        $this->ttl = $post["ttl"];
         $this->email = $post["email"];
         $this->hp = $post["hp"];
         $this->posisi = $post["posisi"];
@@ -63,7 +63,7 @@ class M_resiko extends CI_Model
         $post = $this->input->post();
         $this->id_kecemasan = $post["id"];
         $this->nama = $post["nama"];
-        $this->usia = $post["usia"];
+        $this->ttl = $post["ttl"];
         $this->email = $post["email"];
         $this->hp = $post["hp"];
         $this->posisi = $post["posisi"];

@@ -16,9 +16,16 @@ class Resiko extends CI_Controller {
 	
 	public function hasil()
     {
-        $data["resiko"] = $this->m_resiko->getHasil();
+		$data["resiko"] = $this->m_resiko->getHasil();
+		$check = $this->m_resiko->getHasil();
 
-        $this->load->view('user/v_hasil_resiko', $data);
+		if ($check == !null) {
+			$this->load->view('user/v_hasil_resiko', $data);
+
+		} else {
+			$this->load->view('user/v_cari_gagal', $data);
+		}
+
 	}
 	
 	public function add()
