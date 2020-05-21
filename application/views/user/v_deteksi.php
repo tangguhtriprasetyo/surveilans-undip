@@ -200,7 +200,7 @@
                     <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Semarang</label><br>
                     <input type="radio" name="riwayat" value="0">
-                    <label for="riwayat"><strong>Tidak Pernah</strong></label><br>
+                    <label for="riwayat">Tidak Pernah</label><br>
                   </div>
 
                   <div class="form-group">

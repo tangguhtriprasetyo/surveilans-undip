@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Bulan Mei 2020 pada 08.26
+-- Waktu pembuatan: 21 Bulan Mei 2020 pada 09.35
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.2.27
 
@@ -139,7 +139,8 @@ INSERT INTO `deteksi` (`id_deteksi`, `nama`, `gender`, `ttl`, `email`, `hp`, `ke
 (13, 'tes insttansi', 'laki', 'S1-Cyber Securiedit', 'tangguhtp@student.ce.undip.ac.id', 23243243, 2147483647, 'Kontrakan', 'semarang', 'Dari Masjid', 'SD', 'Polisi', 24, '2020-05-20'),
 (14, 'Tangguh Tri Prasetyo', 'laki', 'Semarang, 2 Mei 1998', 'tangguhtp@student.ce.undip.ac.id', 2147483647, 2147483647, '', '', 'Semarang', 'D1_D2_D3', 'Dosen', 24, '2020-05-20'),
 (15, 'tes insttansi', 'perempuan', 'S1-Cyber Securiedit', 'tangguh.astank@gmail.com', 23243243, 2147483647, 'Rumah_Sendiri', 'jakarta', 'Dari Masjid', 'D1_D2_D3', 'BUMN', 22, '2020-05-20'),
-(16, 'Tangguh Tri Prasetyo', 'laki', '1998-02-01', 'tangguhtp@student.ce.undip.ac.id', 2147483647, 2147483647, 'Lainnya', 'semarang', 'Semarang', 'S3', 'BUMN', 23, '2020-05-21');
+(16, 'Tangguh Tri Prasetyo', 'laki', '1998-02-01', 'tangguhtp@student.ce.undip.ac.id', 2147483647, 2147483647, 'Lainnya', 'semarang', 'Semarang', 'S3', 'BUMN', 23, '2020-05-21'),
+(17, 'Krismiatun', 'perempuan', '1970-01-22', 'krismiatunyoyok@gmail.com', 2147483647, 2147483647, 'Rumah_Sendiri', 'Bumi Wanamukti Blok J2/27', 'Semarang', 'D1_D2_D3', 'olshop', 21, '2020-05-21');
 
 -- --------------------------------------------------------
 
@@ -169,8 +170,9 @@ CREATE TABLE `kecemasan` (
 
 INSERT INTO `kecemasan` (`id_kecemasan`, `nama`, `email`, `ttl`, `hp`, `posisi`, `wilayah`, `pekerjaan`, `tempat_kerja`, `wfh`, `kesulitan`, `skor`, `date`) VALUES
 (37, 'Tangguh aja', 'tangguhtp@student.ce.undip.ac.id', '2', '082138273695', 'semarang', 'lockdown', 'Dosen', 'Semarang', 'Iya', 'kendala jaringan,sulit berkoordinasi,apaya', 14, '2020-05-21'),
-(38, 'tes insttansi', 'tangguh.astank@gmail.com', '34', '085789746003', 'semarang', 'pkm', 'Mengurus Rumah Tangga', 'Semarang', 'Tidak', 'kendala jaringan,', 0, '2020-05-21'),
-(39, 'roni', 'tangguhtp@student.ce.undip.ac.id', '1998-05-02', '082138273695', 'semarang', 'pkm', 'Mahasiswa', 'Semarang', 'Tidak', 'sulit menentukan,', 38, '2020-05-21');
+(38, 'tes insttansi', 'tangguh.astank@gmail.com', '34', '085789746003', 'semarang', 'pkm', 'Mengurus Rumah Tangga', 'Semarang', 'Tidak', 'kendala jaringan,', 38, '2020-05-21'),
+(39, 'roni', 'tangguhtp@student.ce.undip.ac.id', '1998-05-02', '082138273695', 'semarang', 'pkm', 'Mahasiswa', 'Semarang', 'Tidak', 'sulit menentukan,', 28, '2020-05-21'),
+(40, 'krismiatun', 'krismiatunyoyok@gmail.com', '1970-01-22', '08221573621', 'semarang', 'psbb', 'Mengurus Rumah Tangga', 'Semarang', 'Iya', '', 39, '2020-05-21');
 
 --
 -- Indexes for dumped tables
@@ -220,13 +222,13 @@ ALTER TABLE `apd`
 -- AUTO_INCREMENT untuk tabel `deteksi`
 --
 ALTER TABLE `deteksi`
-  MODIFY `id_deteksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id_deteksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT untuk tabel `kecemasan`
 --
 ALTER TABLE `kecemasan`
-  MODIFY `id_kecemasan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id_kecemasan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -43,9 +43,6 @@ $(document).ready(function () {
             durasi: {
                 required: false,
             },
-            riwayat: {
-                required: true,
-            },
             radius: {
                 required: true,
             },
@@ -56,10 +53,10 @@ $(document).ready(function () {
                 required: true,
             },
             prinsip: {
-                required: true,
+                required: false,
             },
             keluar: {
-                required: true,
+                required: false,
             },
             penyemprotan: {
                 required: true,
@@ -116,9 +113,6 @@ $(document).ready(function () {
             },
             durasi: {
                 required: "Masukkan durasi"
-            },
-            riwayat: {
-                required: "Pilih salah satu"
             },
             radius: {
                 required: "Pilih salah satu"
