@@ -15,8 +15,15 @@ class Admin_deteksi extends CI_Controller {
 
 	public function index()
 	{
-		$data["deteksi"] = $this->m_deteksi->getAll();
-		$this->load->view('admin/v_admin_deteksi', $data);
+
+        if($this->session->userdata('logged_in')){ 
+            $data["deteksi"] = $this->m_deteksi->getAll();
+		    $this->load->view('admin/v_admin_deteksi', $data);
+            
+		} else{
+			$this->load->view('admin/v_login');
+		}
+		
 	}
 
 	public function delete($id=null)

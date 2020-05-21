@@ -164,7 +164,7 @@
                     <input type="checkbox" name="gejala7" id="checkbox7" value="1">
                     <label for="gejala">Sakit Tenggorokan</label><br>
                     <input type="checkbox" name="gejala8" id="checkbox8" value="1">
-                    <label for="gejala">Lainnya</label><br>
+                    <label for="gejala"><input type="text" id="textbox1" placeholder="  Lainnya" readonly></label><br>
                   </div>
 
                   <div class="form-group">
@@ -199,6 +199,8 @@
                     <label for="riwayat">Denpasar</label><br>
                     <input type="radio" name="riwayat" value="1">
                     <label for="riwayat">Semarang</label><br>
+                    <input type="radio" name="riwayat" value="0">
+                    <label for="riwayat"><strong>Tidak Pernah</strong></label><br>
                   </div>
 
                   <div class="form-group">
@@ -259,15 +261,15 @@
                     <label for="exampleInputKelamin1">Jika anda terpaksa keluar rumah, apa saja langkah yang anda
                     lakukan saat tiba dirumah? (pilihan boleh lebih dari 1)</label><br>
                     <input type="checkbox" name="keluar1" value="1">
-                    <label for="jeniskelamin">Mengganti pakaian pergi dengan pakaian bersih</label><br>
+                    <label for="jeniskelamin">Tidak Mengganti pakaian pergi dengan pakaian bersih</label><br>
                     <input type="checkbox" name="keluar2" value="1">
-                    <label for="keluar">Cuci tangan pakai sabun sebelum masuk rumah</label><br>
+                    <label for="keluar">Tidak Cuci tangan pakai sabun sebelum masuk rumah</label><br>
                     <input type="checkbox" name="keluar3" value="1">
-                    <label for="keluar">Mandi</label><br>
+                    <label for="keluar">Tidak Mandi</label><br>
                     <input type="checkbox" name="keluar4" value="1">
-                    <label for="keluar">Membuka sepatu di luar rumah</label><br>
+                    <label for="keluar">Tidak Membuka sepatu di luar rumah</label><br>
                     <input type="checkbox" name="keluar5" value="1">
-                    <label for="keluar">Menyemprotkan disinfektan ke barang-barang yang dibawa
+                    <label for="keluar">Tidak Menyemprotkan disinfektan ke barang-barang yang dibawa
                     bepergian</label><br>
                   </div>
 
@@ -387,6 +389,7 @@
     };
       document.getElementById('checkbox8').onchange = function() {
       document.getElementById('textbox').readOnly = !this.checked;
+      document.getElementById('textbox1').readOnly = !this.checked;
     };
   })
 </script>

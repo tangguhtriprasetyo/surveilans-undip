@@ -22,26 +22,26 @@
                     $skor = $resiko->skor;
                     if ($skor < 14) :?>
                     <div class="alert alert-success" role="alert">
-                        <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda tidak memmpunyai kecemasan.</strong></h2>
-                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda tidak memiliki kecemasan.</strong></h2>
+                        <h2><strong>Saran :</strong> Kurangi hal - hal yang dapat membuat anda tertekan, berikan waktu istirahat yang cukup.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
                     <?php elseif ($skor > 15 && $skor <= 20):?>
                     <div class="alert alert-success" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Ringan</strong></h2>
-                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <h2><strong>Saran :</strong> Kurangi hal - hal yang dapat membuat anda tertekan, berikan waktu istirahat yang cukup.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
                     <?php elseif ($skor >= 20 && $skor <= 28):?>
                     <div class="alert alert-warning" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Sedang</strong></h2>
-                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <h2><strong>Saran :</strong> Kurangi hal - hal yang dapat membuat anda tertekan, berikan waktu istirahat yang cukup.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
                     <?php elseif ($skor > 28 ):?>
                     <div class="alert alert-danger" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat kecemasan <strong> Berat</strong></h2>
-                        <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan lebih baik lakukan karantina mandiri selama 14 hari.</h2>
+                        <h2><strong>Saran :</strong> Sebaiknya anda berkonsultasi ke psikolog profesional untuk info lebih lanjut dan lebih akurat.</h2>
                         <p class="text-center">Untuk bantuan anda dapat menghubungi DDART </br> email: lppm@live.undip.ac.id</p>
                     </div>
 

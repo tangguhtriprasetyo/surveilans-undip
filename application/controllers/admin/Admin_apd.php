@@ -15,8 +15,15 @@ class Admin_apd extends CI_Controller {
 
 	public function index()
 	{
-		$data["apd"] = $this->m_apd->getAll();
-		$this->load->view('admin/v_admin_apd', $data);
+
+        if($this->session->userdata('logged_in')){ 
+            $data["apd"] = $this->m_apd->getAll();
+		    $this->load->view('admin/v_admin_apd', $data);
+            
+		} else{
+			$this->load->view('admin/v_login');
+		}
+		
 	}
 
 	public function delete($id=null)

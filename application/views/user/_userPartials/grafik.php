@@ -20,10 +20,10 @@ var donutData        = {
   {
     data: [
       <?php 
-      $satu = $this->db->query('SELECT * FROM kecemasan WHERE skor < 14');
+      $satu = $this->db->query('SELECT * FROM kecemasan WHERE skor <= 14');
       $dua = $this->db->query('SELECT * FROM kecemasan WHERE skor BETWEEN  15 AND  21');
       $tiga = $this->db->query('SELECT * FROM kecemasan WHERE skor BETWEEN 22 AND 28');
-      $empat = $this->db->query('SELECT * FROM kecemasan WHERE skor > 40');
+      $empat = $this->db->query('SELECT * FROM kecemasan WHERE skor > 28');
       ?>
       <?php echo $satu->num_rows(); ?>,
       <?php echo $dua->num_rows(); ?>,

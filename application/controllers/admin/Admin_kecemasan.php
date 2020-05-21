@@ -16,8 +16,15 @@ class Admin_kecemasan extends CI_Controller {
 
 	public function index()
 	{
-		$data["resiko"] = $this->m_resiko->getAll();
-		$this->load->view('admin/v_admin_kecemasan', $data);
+		
+        
+        if($this->session->userdata('logged_in')){ 
+            $data["resiko"] = $this->m_resiko->getAll();
+            $this->load->view('admin/v_admin_kecemasan', $data);
+            
+		} else{
+			$this->load->view('admin/v_login');
+		}
 	}
 
 	public function delete($id=null)
