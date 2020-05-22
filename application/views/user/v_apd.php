@@ -32,7 +32,7 @@
                 <div class="card-body">
 
                   <div class="section-title" data-aos="fade-up">
-                    <h2>Form Surveilens ini dinisiasi oleh P2KKN UNDIP 2020</h2>
+                    <h2>Form Surveilens ini dinisiasi oleh D-DART danP2KKN UNDIP 2020</h2>
                   </div>
                   
                   <div class="form-group">

@@ -51,43 +51,55 @@ class M_deteksi extends CI_Model
     public function save()
     {
         $post = $this->input->post();
+        $gejala = 0;
+        $prinsip = 0;
+        $keluar = 0;
+        $kerumunan = 0;
+
+        if(!empty($_POST['gejala'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['gejala'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+        
+        if(!empty($_POST['prinsip'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['prinsip'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+        
+        if(!empty($_POST['keluar'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['keluar'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+        
+        if(!empty($_POST['kerumunan'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['kerumunan'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+
         if (empty($post["durasi"])) {
-            $gejala = 0;
+            $durasi = 0;
           } else {
-              $gejala = 1;
+              $durasi = 1;
           }
-        $skor = empty($post["gejala1"]) + 
-                empty($post["gejala2"]) + 
-                empty($post["gejala3"]) + 
-                empty($post["gejala4"]) + 
-                empty($post["gejala5"]) + 
-                empty($post["gejala6"]) + 
-                empty($post["gejala7"]) + 
-                empty($post["gejala8"]) + 
+        $skor = $gejala +
                 $post["riwayat"] + 
                 $post["radius"] + 
                 $post["kontak"] + 
                 $post["karantina"] + 
-                empty($post["prinsip1"]) + 
-                empty($post["prinsip2"]) + 
-                empty($post["prinsip3"]) + 
-                empty($post["prinsip4"]) + 
-                empty($post["prinsip5"]) + 
-                empty($post["keluar1"]) + 
-                empty($post["keluar2"]) + 
-                empty($post["keluar3"]) + 
-                empty($post["keluar4"]) + 
-                empty($post["keluar5"]) + 
+                $prinsip + 
+                $keluar + 
                 $post["penyemprotan"] + 
                 $post["physical"] + 
-                empty($post["kerumunan1"]) + 
-                empty($post["kerumunan2"]) + 
-                empty($post["kerumunan3"]) + 
-                empty($post["kerumunan4"]) + 
-                empty($post["kerumunan5"]) + 
-                empty($post["kerumunan6"]) + 
-                empty($post["kerumunan7"]) + 
-                $gejala;
+                $kerumunan + 
+                $durasi;
         $this->id_deteksi = 'DEFAULT';
         $this->nama = $post["nama"];
         $this->gender = $post["gender"];
@@ -106,45 +118,56 @@ class M_deteksi extends CI_Model
 
     public function update()
     {
-        $post = $this->input->post();
+        $gejala = 0;
+        $prinsip = 0;
+        $keluar = 0;
+        $kerumunan = 0;
+
+        if(!empty($_POST['gejala'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['gejala'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+        
+        if(!empty($_POST['prinsip'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['prinsip'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+        
+        if(!empty($_POST['keluar'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['keluar'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+        
+        if(!empty($_POST['kerumunan'])){
+            // Loop to store and display values of individual checked checkbox.
+            foreach($_POST['kerumunan'] as $selected){
+            $gejala +=$selected;
+            }
+        }
+
         if (empty($post["durasi"])) {
-            $gejala = 0;
+            $durasi = 0;
           } else {
-              $gejala = 1;
+              $durasi = 1;
           }
-        $skor = empty($post["gejala1"]) + 
-                empty($post["gejala2"]) + 
-                empty($post["gejala3"]) + 
-                empty($post["gejala4"]) + 
-                empty($post["gejala5"]) + 
-                empty($post["gejala6"]) + 
-                empty($post["gejala7"]) + 
-                empty($post["gejala8"]) + 
+        $skor = $gejala +
                 $post["riwayat"] + 
                 $post["radius"] + 
                 $post["kontak"] + 
                 $post["karantina"] + 
-                empty($post["prinsip1"]) + 
-                empty($post["prinsip2"]) + 
-                empty($post["prinsip3"]) + 
-                empty($post["prinsip4"]) + 
-                empty($post["prinsip5"]) + 
-                empty($post["keluar1"]) + 
-                empty($post["keluar2"]) + 
-                empty($post["keluar3"]) + 
-                empty($post["keluar4"]) + 
-                empty($post["keluar5"]) + 
+                $prinsip + 
+                $keluar + 
                 $post["penyemprotan"] + 
                 $post["physical"] + 
-                empty($post["kerumunan1"]) + 
-                empty($post["kerumunan2"]) + 
-                empty($post["kerumunan3"]) + 
-                empty($post["kerumunan4"]) + 
-                empty($post["kerumunan5"]) + 
-                empty($post["kerumunan6"]) + 
-                empty($post["kerumunan7"]) + 
-                $gejala;
-        $this->id_deteksi = $post["id"];
+                $kerumunan + 
+                $durasi;
+        $this->id_deteksi = 'DEFAULT';
         $this->nama = $post["nama"];
         $this->gender = $post["gender"];
         $this->ttl = $post["ttl"];

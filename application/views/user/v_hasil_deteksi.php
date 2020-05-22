@@ -20,7 +20,7 @@
                   </div>
                   <?php 
                     $skor = $deteksi->skor;
-                    if ($skor<=11) :?>
+                    if ($skor <11) :?>
                     <div class="alert alert-success" role="alert">
                         <h2><strong>Hasil :</strong> Dari survey yang anda isi, didapatkan hasil bahwa anda memiliki tingkat resiko <strong> Ringan / Sehat</strong></h2>
                         <h2><strong>Saran :</strong> Perbanyak minum vitamin, selalu jaga kebersihan dan terapkan perilaku pencegahan Covid-19.</h2>

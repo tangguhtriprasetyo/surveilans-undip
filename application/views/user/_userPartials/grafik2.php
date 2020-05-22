@@ -20,8 +20,8 @@ $(function () {
       {
         data: [
       <?php 
-      $satu = $this->db->query('SELECT * FROM deteksi WHERE skor < 11');
-      $dua = $this->db->query('SELECT * FROM deteksi WHERE skor BETWEEN  11 AND  23');
+      $satu = $this->db->query('SELECT * FROM deteksi WHERE skor <= 11');
+      $dua = $this->db->query('SELECT * FROM deteksi WHERE skor BETWEEN  12 AND  23');
       $tiga = $this->db->query('SELECT * FROM deteksi WHERE skor > 23');
       ?>
       <?php echo $satu->num_rows(); ?>,
